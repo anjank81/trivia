@@ -1,0 +1,38 @@
+.pollInputHolder {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: 1px solid #ebeced;
+  border-radius: 5px;
+}
+.pollText {
+  padding: 14px;
+  background: #ebeced;
+  color: #4f439a;
+  font-family: bold;
+  font-size: 18px;
+  line-height: 24px;
+}
+.pollHolder {
+  width: 75%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.photoTextHolder {
+  width: 25%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.pollInput {
+  width: 100%;
+}
+.addPhoto {
+  padding: 14px;
+  color: #4f439a;
+  font-family: bold;
+  font-size: 14px;
+  line-height: 19px;
+  width: 100%;
+}

@@ -1,0 +1,532 @@
+.createPostContainer {
+  width: 550px;
+  height: 70vh;
+  max-height: 600px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  margin-bottom: 36px;
+  overflow-y: auto;
+}
+.createPostContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.createPostNav {
+  width: 100%;
+  height: 80px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.writePost {
+  color: #1a1a1a;
+  font-family: "bold";
+  font-size: 12px;
+  line-height: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.writePost::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  left: -24px;
+  background: url("../../images/Createpost.svg");
+  background-position: center;
+  background-size: cover;
+}
+
+.writePostSelected {
+  composes: writePost;
+  color: #4f439a;
+}
+
+.writePostMessageBox {
+  height: 52.86px;
+  width: 161.33px;
+  padding: 17px 15px 13px 48px;
+  border-radius: 5px;
+  margin-left: -21px;
+  margin-bottom: 13px;
+  background-color: #e0deed;
+}
+
+.writePostMessageBox::after {
+  content: " ";
+  position: relative;
+  top: 30px;
+  left: 17px;
+  background-color: transparent;
+  border-top: 15px solid #e0deed;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+  border-bottom: none;
+}
+
+.writePostSelected::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  left: -24px;
+  background: url("../../images/Createpost_blue.svg");
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.askQuestion {
+  color: #1a1a1a;
+  font-family: "bold";
+  font-size: 12px;
+  line-height: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.askQuestion::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  left: -24px;
+  background: url("../../images/Askquestion.svg");
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.askQuestionSelected {
+  composes: askQuestion;
+  color: #4f439a;
+}
+
+.askQuestionSelected::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  left: -24px;
+  background: url("../../images/Askquestion_blue.svg");
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.createPoll {
+  color: rgba(0, 0, 0, 0.5);
+  font-family: "bold";
+  font-size: 12px;
+  line-height: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.createPoll::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  left: -24px;
+  background: url("../../images/Createpoll.svg");
+  background-position: center;
+  background-size: cover;
+}
+
+.createPollSelected {
+  font-family: "bold";
+  font-size: 12px;
+  line-height: 20px;
+  position: relative;
+  color: #4f439a;
+  cursor: pointer;
+}
+
+.createPollSelected::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 0;
+  left: -24px;
+  background: url("../../images/Createpoll_blue.svg");
+  background-position: center;
+  background-size: cover;
+}
+
+.imageAndInputHolder {
+  width: 100%;
+  height: 60px;
+  background: rgba(235, 236, 237, 0.5);
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.createPostContainerImage {
+  width: 30px;
+  height: 30px;
+}
+
+.textArea {
+  padding: 10px;
+}
+
+.commentHolder {
+  border-top: 1px solid #b2b2b2;
+  border-radius: 5px;
+  padding: 10px 0px;
+}
+
+.iconHolders {
+  border-top: 1px solid #b2b2b2;
+  border-radius: 5px;
+  padding: 14px 0px;
+  display: flex;
+}
+
+.icon {
+  padding: 0px 17px;
+  cursor: pointer;
+}
+.iconBlur {
+  opacity: 0.5;
+  composes: icon;
+}
+.labelHolder {
+  width: 100%;
+  border-top: 1px solid #b2b2b2;
+  border-radius: 5px;
+  padding: 14px 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.labelText {
+  border: 1px solid #4f439a;
+  border-radius: 15px;
+  font-size: 10px;
+  font-family: bold;
+  color: #4f439a;
+  width: 110px;
+  padding: 0px 5px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.tagHolder {
+  height: 30px;
+  width: auto;
+  border: 1px solid #7f7f7f;
+  border-radius: 15px;
+  color: #4f439a;
+  padding: 6px 22px;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  font-family: bold;
+  cursor: pointer;
+}
+
+.postHolder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0px;
+  border-top: 1px solid #b2b2b2;
+  border-radius: 5px;
+  padding: 14px 0px;
+}
+
+.selectHolder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+
+.holder {
+  composes: selectHolder;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.check {
+  box-sizing: border-box;
+  height: 15px;
+  width: 15px;
+  border: 1px solid #4f439a;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.postuser {
+  color: #333333;
+  font-family: regular;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.cancel {
+  color: #7f7f7f;
+  font-family: regular;
+  font-size: 14px;
+  line-height: 22px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.dropdownHolder {
+  background: #4f439a;
+  border: 1px solid #4f439a;
+  border-radius: 5px 0px 0px 5px;
+  padding: 9px 30px;
+  color: #fff;
+  cursor: pointer;
+}
+.dropdownHolderInActive {
+  background: rgba(79, 67, 154, 0.3);
+  border: 1px solid rgba(79, 67, 154, 0.3);
+  border-radius: 5px 0px 0px 5px;
+  padding: 9px 30px;
+  color: #fff;
+  cursor: pointer;
+}
+.dropdownArrow {
+  box-sizing: border-box;
+  padding: 9px 13px;
+  border: 1px solid #4f439a;
+  border-radius: 0 5px 5px 0;
+  vertical-align: middle;
+  color: #4f439a;
+  cursor: pointer;
+  position: relative;
+}
+
+.showdropDown {
+  position: absolute;
+  right: 0;
+  bottom: 42px;
+  width: 200px;
+  border: 1px solid #ebeced;
+  background: #ebeced;
+  border-radius: 5px;
+}
+
+.dropHeader {
+  border-radius: 5px 5px 0 0;
+  background-color: #ebeced;
+  color: #333333;
+  font-family: bold;
+  font-size: 12px;
+  line-height: 17px;
+  padding: 5px 15px;
+}
+
+.content {
+  padding: 5px 15px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.text {
+  color: #333333;
+  padding-left: 12px;
+  font-family: regular;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.inputContianer {
+  composes: createPostContainer;
+  padding: 0px;
+}
+
+.topNav {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: #ebeced;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.done {
+  color: #4f439a;
+  font-family: bold;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.tagInputHolder {
+  padding: 10px 20px;
+}
+
+.dataHolder {
+  padding: 5px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imageWithTextHolder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profilText {
+  color: #333333;
+  font-family: regular;
+  font-size: 14px;
+  line-height: 19px;
+  padding: 7px 16px;
+  cursor: pointer;
+}
+
+.pollInputHolder {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pollBox {
+  width: 100%;
+  padding: 10px 0px;
+}
+
+.uploadIcon {
+  visibility: hidden;
+}
+
+.imageContainer {
+  padding: 13px 46px 32px 45px;
+  align-items: center;
+}
+
+.uploadBox {
+  width: 112px;
+  height: 85px;
+  box-sizing: border-box;
+  border: 1px dashed #e0deed;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+.displayBox {
+  display: flex;
+  margin-right: 10px;
+  border-radius: 5px;
+  flex-wrap: wrap;
+}
+
+.boxContainer {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.imageStyle {
+  height: 84px;
+  width: 111px;
+}
+.feedImage {
+  cursor: pointer;
+  width: 100%;
+  height: 300px;
+}
+.container {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  padding-left: 35px;
+}
+.tagContainer {
+  cursor: pointer;
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-bottom: 10px;
+}
+.tag {
+  width: auto;
+  height: auto;
+  padding: 0px 5px;
+  border: 1px solid #b2b2b2;
+  border-radius: 15px;
+  color: #1a1a1a;
+  font-family: "bold";
+  font-size: 10px;
+  line-height: 18px;
+  text-align: center;
+  margin-right: 5px;
+}
+.more {
+  height: 25px;
+  width: 25px;
+  background-color: #7f7f7f;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: top;
+  font-size: 12px;
+}
+.feedHeading {
+  color: #1a1a1a;
+  font-family: "bold";
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 8px;
+  word-break: break-word;
+}
+.hashTagContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.feedDescription {
+  color: #1a1a1a;
+  font-family: "regular";
+  font-size: 14px;
+  line-height: 22px;
+  word-break: break-all;
+  white-space: pre-line;
+  margin-bottom: 5px;
+}
+.shareButton {
+  background: #4f439a;
+  border: 1px solid #4f439a;
+  border-radius: 5px;
+  padding: 9px 30px;
+  color: #fff;
+  width: 91px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 1024px) {
+  .createPostContainer {
+    width: 100%;
+    height: 100%;
+  }
+}

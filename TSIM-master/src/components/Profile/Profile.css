@@ -1,0 +1,620 @@
+.base {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.topSection {
+  background: #f2f2f2;
+  height: 365px;
+  width: 100%;
+  position: relative;
+  margin-top: 80px;
+}
+
+.profileSection {
+  position: absolute;
+  top: 30px;
+  border-radius: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  background: #fff;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+  max-width: 1200px;
+  margin: 15px auto;
+}
+
+.profile {
+  background: #fff;
+  width: 70%;
+  height: 100%;
+  padding: 0 40px;
+}
+
+.uploadImage {
+  /* background: #7f7f7f; */
+  width: 40%;
+  height: auto;
+  background: linear-gradient(180deg, #e5e5e5 0%, #eeeeee 100%);
+  position: relative;
+}
+
+.profileName {
+  color: #1a1a1a;
+  font-family: bold;
+  font-size: 40px;
+  line-height: 48px;
+  padding-bottom: 5px;
+  width: 100%;
+}
+
+.profileDesignation {
+  color: #ad5da3;
+  font-family: regular;
+  font-size: 18px;
+  line-height: 26px;
+  padding-bottom: 5px;
+}
+
+.profileLocation {
+  color: #7f7f7f;
+  font-family: regular;
+  font-size: 18px;
+  line-height: 26px;
+  padding-bottom: 5px;
+}
+
+.uploadCvButton {
+  color: #4f439a;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: bold;
+  line-height: 19px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.dividingLine {
+  box-sizing: border-box;
+  height: 1px;
+  width: 100%;
+  border: 1px solid #ebeced;
+}
+
+.summaryHeader {
+  color: #000000;
+  font-family: bold;
+  font-size: 18px;
+  line-height: 24px;
+  padding-bottom: 7px;
+}
+
+.addBio {
+  color: #000000;
+  font-family: regular;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.bioList {
+  color: #7f7f7f;
+  font-family: regular;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.wordList {
+  padding-top: 40px;
+}
+
+.uploadIntroVideo {
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  padding: 40px 20px 40px 20px;
+  display: inline-block;
+}
+
+.profileConnections {
+  padding-top: 25px;
+  position: relative;
+}
+
+.profileConnections {
+  padding-top: 25px;
+  display: flex;
+}
+
+.connections {
+  width: 88%;
+}
+
+.profileLocation {
+  color: #7f7f7f;
+  font-family: regular;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.dividingLine {
+  margin: 10px 0;
+}
+
+.wordLimit {
+  padding: 40px 0;
+}
+
+.uploadIcon {
+  background: url("../../images/Upload-color.svg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+
+.editIcon {
+  background: url("../../images/Edit-profile.svg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 25px;
+}
+
+.uploadImageDummy {
+  background: url("../../images/Profile-Fill-grey.svg") no-repeat;
+  background-size: 80%;
+  width: auto;
+  height: 55vh;
+  border: 1px dashed;
+  margin: 20px;
+  position: relative;
+  background-position: center;
+}
+
+.uploadImages {
+  border-radius: 5px;
+  font-family: bold;
+  font-size: 16px;
+  height: auto;
+  padding: 15px 25px;
+  color: #4f439a;
+  background: #d1cfe3;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+}
+
+.profileCarousel {
+  /* width: 100%;
+  height: 50vh; */
+  border: 1px dashed;
+  margin: 20px;
+  position: relative;
+  width: auto;
+  height: 55vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.uploadPlusButton {
+  width: 44px;
+  height: 44px;
+  background: url("../../images/Add-Fill.svg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.uploadPlusButton:nth-child(even) {
+  margin: 0 15px;
+}
+
+.milestoneSection {
+  position: relative;
+}
+
+.uploadImageGroup {
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.editableOptions {
+  background: url("../../images/Overflow-menu-black.svg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 25px;
+  height: 25px;
+  float: right;
+  margin-right: 0;
+  cursor: pointer;
+}
+
+.nameWithEdit {
+  display: flex;
+}
+
+.milestones {
+  margin-top: 300px;
+}
+
+.milestoneList {
+  composes: bioList;
+  padding-bottom: 30px;
+}
+
+.accomplishmentIcon {
+  height: 40px;
+  width: 40px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.accomplishmentIcon:nth-child(even) {
+  margin: 0 10px;
+}
+
+.boxIcon {
+  cursor: pointer;
+  composes: accomplishmentIcon;
+  background: url("../../images/Job line.svg");
+}
+
+.eduIcon {
+  cursor: pointer;
+  composes: accomplishmentIcon;
+  background: url("../../images/Education-line-border.svg");
+}
+
+.profileIcon {
+  cursor: pointer;
+  composes: accomplishmentIcon;
+  background: url("../../images/Certification-Line.svg");
+}
+
+.labelIcon {
+  cursor: pointer;
+  composes: accomplishmentIcon;
+  background: url("../../images/Awards line.svg");
+}
+
+.milestones {
+  border-bottom: 1px solid #ebeced;
+  padding: 0 40px;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+.journey {
+  padding-top: 50px;
+  padding: 0 40px;
+  margin-top: 50px;
+}
+
+.usersJourney {
+  background: #fff;
+  width: 70%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 70px;
+}
+
+.skillsLanguages {
+  width: 30%;
+  background: #fff;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.accomplishmentTag {
+  padding-bottom: 50px;
+  border-bottom: 3px solid #333;
+  position: relative;
+}
+
+.professionalIcon {
+  height: 50px;
+  width: 50px;
+
+  margin-right: 30px;
+}
+
+.jobIcon {
+  composes: professionalIcon;
+  background: url("../../images/Job-line-blue.svg") no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.educationIcon {
+  composes: professionalIcon;
+  background: url("../../images/Education-line-blue.svg") no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.achievementIcon {
+  composes: professionalIcon;
+  background: url("../../images/Certification-Line-blue.svg") no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.awardsIcon {
+  composes: professionalIcon;
+  background: url("../../images/Awards-line-blue.svg") no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.jobSection {
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.noJobSection {
+  composes: jobSection;
+  align-items: center;
+}
+
+.jobTitle {
+  color: #1a1a1a;
+  font-family: bold;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.horizontalLine {
+  width: 1px;
+  border: 1px solid #7f7f7f;
+  height: auto;
+  margin: 0 20px;
+}
+
+.jobDate {
+  color: #7f7f7f;
+  font-family: regular;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.companyName {
+  color: #4f439a;
+  font-family: regular;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.companyLocation {
+  color: #1a1a1a;
+  font-family: regular;
+  font-size: 14px;
+  line-height: 22px;
+  padding-top: 5px;
+}
+
+.companyDescription {
+  color: #333333;
+  font-family: regular;
+  font-size: 14px;
+  line-height: 22px;
+  padding-top: 15px;
+}
+
+.addAccomplishment {
+  padding-top: 50px;
+}
+
+.enableTour {
+  cursor: pointer;
+  pointer-events: all;
+  text-align: right;
+  color: #4f439a;
+  font-size: 14px;
+  font-family: bold;
+  line-height: 19px;
+  padding-bottom: 5px;
+}
+
+.disableTour {
+  cursor: default;
+  pointer-events: none;
+  text-align: right;
+  color: #4f439a;
+  font-size: 14px;
+  font-family: bold;
+  line-height: 19px;
+  padding-bottom: 5px;
+}
+
+/* For Tool tip */
+
+.toolTipHeader {
+  font-size: 18px;
+  font-family: bold;
+  line-height: 24px;
+  color: #ffffff;
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.toolTipBody {
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+.notificationToolTip {
+  position: fixed;
+  bottom: 0;
+  cursor: pointer;
+}
+
+.toolTipBanner {
+  font-family: regular;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.toolTipStart {
+  font-size: 18px;
+  font-family: bold;
+  line-height: 24px;
+  text-align: center;
+  border-bottom: 1px dotted;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.notifyIcon {
+  background: url("../../images/Info-Line-white.svg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.removebanner {
+  display: none;
+}
+
+.fixedHeader {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  transition: 0.5s;
+  z-index: 1;
+  background: #fff;
+  z-index: 2;
+}
+
+.jobDescription {
+  /* padding-top: 50px; */
+}
+
+.jobDescription:first-child {
+  padding-top: 0;
+}
+
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.workDescription {
+  width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+  .profileSection {
+    flex-direction: column;
+  }
+  .profileSection {
+    margin-top: 0;
+  }
+  .profile {
+    padding: 25px;
+    width: 100%;
+  }
+  .topSection {
+    margin-top: 40px;
+    height: 100vh;
+  }
+  .uploadImage {
+    width: 100%;
+  }
+  .milestones {
+    padding: 0 25px;
+    padding-bottom: 50px;
+  }
+  .uploadImageDummy {
+    height: 60vh;
+  }
+  .toolTipBanner {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .usersJourney {
+    width: 100%;
+    padding: 0;
+  }
+  .profileName {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .profileDesignation,
+  .profileLocation {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .connections {
+    width: 75%;
+  }
+  .professionalIcon {
+    width: 15%;
+  }
+  .workDescription {
+    width: 70%;
+  }
+  .milestoneList {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .boxIcon,
+  .eduIcon,
+  .profileIcon,
+  .labelIcon {
+    width: 35px;
+    height: 35px;
+    background-size: contain;
+  }
+  .skillsLanguages {
+    width: 100%;
+  }
+  .notificationToolTip {
+    bottom: calc(20vh - 60px);
+  }
+  .toolTipStart {
+    font-size: 16px;
+    font-family: bold;
+    line-height: 22px;
+  }
+}

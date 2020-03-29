@@ -1,0 +1,115 @@
+.baseContainer {
+  height: auto;
+  width: 100%;
+}
+
+.container {
+  height: auto;
+  display: flex;
+}
+
+.contactContainer {
+  /* box-sizing: border-box; */
+  height: auto;
+  width: 100%;
+  border: 1px solid #b2b2b2;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 3px 11px 0 rgba(0, 0, 0, 0.1);
+  position: relative;
+  display: inline-block;
+}
+
+.contactInfo {
+  color: #1a1a1a;
+  font-family: bold;
+  font-size: 18px;
+  line-height: 26px;
+  margin: 21px 0 21px 21px;
+}
+
+.lineSeparator {
+  box-sizing: border-box;
+  height: 1px;
+  width: 100%px;
+  border: 1px solid #b2b2b2;
+  border-bottom: none;
+}
+.commonContainer {
+  width: 100%;
+  padding: 20px 20px 0 20px;
+}
+.label {
+  color: #1a1a1a;
+  font-family: bold;
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+
+.buttonContainer {
+  /* width: 50%;
+    float: right;
+    margin: 20px 20px 20px 0; */
+  /* position: absolute; */
+  /* bottom: 0; */
+  /* right: 0; */
+  margin: 20px 20px 20px 0;
+  float: right;
+}
+
+.saveButton {
+  /* width: 50%; */
+  border-radius: 5px;
+  background-color: #e0deed;
+  color: #4f439a;
+  font-family: bold;
+  font-size: 16px;
+  line-height: 24px;
+  display: inline-block;
+  padding: 14px 20px 14px 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.cancelButton {
+  /* width: 50%; */
+  color: #4f439a;
+  font-family: bold;
+  font-size: 16px;
+  line-height: 24px;
+  display: inline-block;
+  padding: 14px 20px 14px 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.phNumber {
+  width: 60%;
+  display: inline-block;
+  color: #1a1a1a;
+  font-family: regular;
+  font-size: 14px;
+  line-height: 22px;
+  padding: 15px 0 15px 10px;
+  border: none;
+  outline-width: 0;
+}
+
+.otp {
+  width: 40%;
+  display: inline-block;
+  color: #4f439a;
+  font-family: bold;
+  font-size: 14px;
+  line-height: 22px;
+  cursor: pointer;
+  text-align: right;
+  padding-right: 10px;
+  vertical-align: middle;
+}
+.phNumberWrapper {
+  box-sizing: border-box;
+  border: 1px solid #b2b2b2;
+  border-radius: 5px;
+}

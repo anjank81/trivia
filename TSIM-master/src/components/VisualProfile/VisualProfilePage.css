@@ -1,0 +1,202 @@
+.base {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  overflow: auto;
+  padding: 60px 0px 40px 0px;
+}
+
+.headerHolder {
+  padding-bottom: 20px;
+}
+
+.bannerContainer {
+  width: 100%;
+  height: 500px;
+}
+
+.banner {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  background: url(../../images/Build-your-profile-min.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  color: #fff;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  display: flex;
+  align-items: center;
+}
+.contentContainer {
+  width: 100%;
+  height: auto;
+}
+
+.heading {
+  color: #ffffff;
+  font-family: "bold";
+  font-size: 32px;
+  line-height: 36px;
+  margin-bottom: 10px;
+}
+
+.content {
+  color: #ffffff;
+  font-family: "semibold";
+  font-size: 18px;
+  line-height: 28px;
+  max-width: 500px;
+  margin-bottom: 30px;
+}
+
+.aboutBase {
+  width: 100%;
+  height: 400px;
+  display: inline-block;
+  margin: 50px 0px;
+}
+
+.aboutConatiner {
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.videoContainer {
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
+.overlayVideo {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  /* z-index: 1000; */
+}
+
+.aboutContent {
+  width: 100%;
+  padding-top: 40px;
+  height: 100%;
+}
+
+.questionContainer {
+  font-family: "bold";
+  font-size: 28px;
+  line-height: 36px;
+  margin-bottom: 5px;
+}
+
+.question {
+  color: #212121;
+}
+
+.quetionWithColor {
+  color: #ad5da3;
+}
+
+.answer {
+  color: #212121;
+  font-family: "regular";
+  font-size: 16px;
+  line-height: 26px;
+  max-width: 450px;
+}
+
+.buttonContainer {
+  width: 100%;
+  height: auto;
+  margin-top: 75px;
+  position: relative;
+}
+
+.arrow {
+  background: url("../../images/forward-color.svg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  top: 19px;
+  width: 15px;
+  height: 15px;
+  margin-left: 180px;
+  position: absolute;
+}
+
+.signUpBarContainer {
+  margin: 20px 0px;
+}
+
+.fixedHeader {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  transition: 0.5s;
+  z-index: 1;
+  background: #fff;
+  z-index: 2;
+}
+@media only screen and (max-width: 1024px) {
+  .banner {
+    padding: 20px;
+    align-items: flex-end;
+  }
+  .heading {
+    font-size: 24px;
+    margin-bottom: 6px;
+  }
+  .content {
+    font-size: 12px;
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+  .aboutBase {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 25px 20px;
+    margin: 0px;
+  }
+  .aboutConatiner {
+    width: 100%;
+    height: auto;
+    display: block;
+    height: auto;
+  }
+  .aboutContent {
+    padding-top: 0px;
+  }
+  .buttonContainer {
+    margin-top: 25px;
+  }
+  .videoContainer {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin-top: 10px;
+    position: relative;
+  }
+  .questionContainer {
+    font-size: 16px;
+    display: flex;
+  }
+  .quetionWithColor {
+    margin-left: 5px;
+  }
+  .answer {
+    font-size: 14px;
+  }
+}

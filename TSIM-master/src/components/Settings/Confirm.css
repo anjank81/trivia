@@ -1,0 +1,48 @@
+.confirmWrapper {
+  border-radius: 10px 10px 0 0;
+  background-color: #ebeced;
+}
+
+.confirm {
+  color: #1a1a1a;
+  font-family: bold;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 18px 0 18px 30px;
+}
+.messageWrapper {
+  padding: 74px 30px 110px 30px;
+}
+
+.message {
+  color: #1a1a1a;
+  font-family: regular;
+  font-size: 16px;
+  line-height: 24px;
+}
+.cancel {
+  display: inline-block;
+  color: #4f439a;
+  font-family: bold;
+  font-size: 16px;
+  line-height: 22px;
+  border-radius: 5px;
+  padding: 14px 20px 14px 20px;
+  cursor: pointer;
+}
+
+.save {
+  display: inline-block;
+  color: #ffffff;
+  font-family: bold;
+  font-size: 16px;
+  line-height: 24px;
+  border-radius: 5px;
+  background-color: #4f439a;
+  padding: 14px 20px 14px 20px;
+  cursor: pointer;
+}
+.buttonWrapper {
+  margin: 40px 30px 20px 0;
+  float: right;
+}

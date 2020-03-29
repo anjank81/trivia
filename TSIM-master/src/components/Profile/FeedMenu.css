@@ -1,0 +1,24 @@
+.base {
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+  color: #333;
+  font-family: regular;
+  position: relative;
+}
+
+.feedMenuHolder {
+  width: 13vw;
+  background: #fff;
+  position: absolute;
+  left: 10px;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.12);
+  z-index: 1;
+  top: 40px;
+}
+
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+  cursor: default;
+}

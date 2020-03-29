@@ -1,0 +1,103 @@
+.baseContainer {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: #fff;
+  padding: 35px;
+  border: 1px solid #979797;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+.imageWithCross {
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: 1px solid #1a1a1a;
+  border-radius: 50%;
+  border: 1px solid #4f439a;
+  position: absolute;
+  z-index: 0;
+  background-size: "70%";
+}
+.addMilestones {
+  color: #1a1a1a;
+  font-family: bold;
+  font-size: 22px;
+  line-height: 30px;
+}
+.showcase {
+  color: #333333;
+  font-family: regular;
+  font-size: 14px;
+  line-height: 23px;
+  margin-top: 4px;
+  margin-bottom: 37px;
+}
+.ovalContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.oval {
+  box-sizing: border-box;
+  /* border: 1px solid #4f439a; */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.addImg {
+  margin: 15px;
+  height: 60px;
+  width: 60px;
+}
+.ovalCopy {
+  margin: 15px;
+  background-color: #e0deed;
+  box-shadow: 0 1px 3px 0 rgba(79, 67, 154, 0.15);
+  border-radius: 50%;
+}
+.addPhoto {
+  color: #4f439a;
+  font-family: bold;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  margin-bottom: 14px;
+  position: relative;
+}
+.title {
+  color: #4f439a;
+  font-family: bold;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.description {
+  color: #333333;
+  font-family: regular;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  margin-bottom: 34px;
+}
+
+.input {
+  margin-bottom: 30px;
+}
+.submit {
+  color: #ffffff;
+  font-family: bold;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #4f439a;
+  padding: 15px 0;
+  margin-top: 15px;
+}

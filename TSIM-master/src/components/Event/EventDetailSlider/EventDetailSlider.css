@@ -1,0 +1,245 @@
+.base {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.stepInfoWrapper {
+  color: #212121;
+}
+.stepInfoHeader {
+  font-family: semibold;
+  font-size: 20px;
+}
+.stepInfoDetail {
+  font-family: regular;
+  font-size: 14px;
+  padding-top: 10px;
+}
+.item {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+.navHolder {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  position: absolute;
+  top: 10px;
+  right: 350px;
+  display: none;
+}
+.navButton {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  border: 1px solid rgba(74, 74, 74, 0.7);
+  background: transparent;
+  transition: 300ms;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.navActive {
+  composes: navButton;
+  width: 6px;
+  height: 6px;
+  background: #ad5da3;
+  border: 1px solid #ad5da3;
+  margin-top: 3px;
+}
+
+.rightArrow {
+  width: 40px;
+  height: 40px;
+  background: #d8d8d8 url(../../../images/Back.svg) no-repeat;
+  background-size: auto 18px;
+  background-position: center;
+  opacity: 0.6;
+  cursor: pointer;
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  margin: auto;
+  z-index: 5;
+  border-radius: 50%;
+  transform: rotate(180deg);
+}
+.leftArrow {
+  width: 40px;
+  height: 40px;
+  background: #d8d8d8 url(../../../images/forward.svg) no-repeat;
+  background-size: auto 18px;
+  background-position: center;
+  opacity: 0.6;
+  cursor: pointer;
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  margin: auto;
+  z-index: 5;
+  border-radius: 50%;
+  transform: rotate(180deg);
+}
+
+.imageHolder {
+  width: 100%;
+  height: auto;
+  transition: 300ms;
+  white-space: nowrap;
+}
+.sliderWrapper {
+  overflow: hidden;
+  border-radius: 5px;
+}
+.slider {
+  composes: imageHolder;
+  transition: none;
+}
+.maxWidth {
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  margin: auto;
+  pointer-events: none;
+}
+
+.buttonHolder {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 12px;
+  cursor: pointer;
+}
+.hideButtonHolder {
+  display: none;
+}
+.button {
+  height: 36px;
+  width: 186px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background-color: #da1c5c;
+  color: #ffffff;
+}
+.eventHeader {
+  font-family: regular;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: bold;
+  padding: 11px 18px 10px 44px;
+  text-align: left;
+}
+
+.eventSlideBar {
+  height: auto;
+}
+
+.eventSlideBar ul {
+  list-style: none;
+  display: flex;
+
+  color: #9295a0;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.eventSlideBar_Selected {
+  padding-bottom: 10px;
+  border-bottom: 2px solid #4f439a;
+  color: #09112e;
+}
+.eventSlideBar ul li {
+  padding: 5px;
+  margin-right: 10px;
+}
+.eventTime::before {
+  content: "";
+  width: 19px;
+  height: 19px;
+  background: url("../../../images/time.svg") no-repeat;
+  background-size: auto 19px;
+  background-position: center;
+  padding: 10px;
+  margin-right: 10px;
+}
+.eventDate::before {
+  content: "";
+  width: 19px;
+  height: 19px;
+  background: url("../../../images/Date.svg") no-repeat;
+  background-size: auto 19px;
+  background-position: center;
+  padding: 10px;
+  margin-right: 10px;
+}
+.eventDetailsBottomWrapper {
+  font-size: 14px;
+  font-family: regular;
+  padding: 1px 20px 37px 44px;
+  text-align: left;
+  height: auto;
+}
+.eventLocation::before {
+  content: "";
+  width: 19px;
+  height: 19px;
+  background: url("../../../images/Location-white.svg") no-repeat;
+  background-size: auto 19px;
+  background-position: center;
+  padding: 10px;
+  margin-right: 10px;
+}
+.eventTimeLocationWrapper {
+  display: flex;
+  margin-left: 39px;
+  margin-top: 19px;
+  font-family: semibold;
+  line-height: 22px;
+}
+.eventTimeLocationWrapper div {
+  margin-right: 20px;
+}
+.desc {
+  width: 100%;
+  height: auto;
+  color: #1a1a1a;
+  font-family: "regular";
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 10px;
+  text-align: justify;
+}
+.testimonialUserBase {
+  padding: 10px;
+  background: #fff;
+  border-radius: 15px;
+  margin-top: 10px;
+  box-shadow: 0 3px 11px 0 rgba(0, 0, 0, 0.1);
+}
+.testimonialUserContainer {
+  margin-top: 10px;
+}
+.testimonialUser {
+  font-size: 14px;
+  font-family: "bold";
+  line-height: 22px;
+}
+.testimonialCreateAt {
+  font-size: 12px;
+  font-family: "regular";
+  line-height: 22px;
+}
+
+@media screen and (min-width: 1025px) {
+  .item {
+    position: relative;
+  }
+}

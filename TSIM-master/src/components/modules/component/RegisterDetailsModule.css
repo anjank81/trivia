@@ -1,0 +1,251 @@
+.showCross {
+  content: "";
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 20px;
+  top: 40px;
+  pointer-events: none;
+  background: url("./Images/canceltransperent.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.modalBase {
+  width: 700px;
+  height: 80vh;
+  background: #fff;
+  animation: RegisterDetailsModule_slideUp__DCx85 300ms ease-in forwards;
+  border-radius: 10px;
+  min-height: 100%;
+  overflow: auto;
+}
+.modalBase::-webkit-scrollbar {
+  display: none;
+}
+.registerHeader {
+  width: 100%;
+  display: inline-block;
+  padding: 25px 30px;
+  border-radius: 10px 10px 0 0;
+  background-color: #ebeced;
+}
+.icon {
+  display: inline-block;
+  padding-right: 18px;
+}
+.error {
+  font-size: 12px;
+  padding-left: 9px;
+  color: #d81818;
+  padding-bottom: 5px;
+}
+.registerText {
+  display: inline-block;
+  color: #333333;
+  font-family: bold;
+  font-size: 18px;
+  line-height: 24px;
+  vertical-align: top;
+}
+.verticalScroller {
+  padding: 20px 58px;
+}
+.selectHeader {
+  padding: 20px 0px;
+  width: 100%;
+  color: #4f439a;
+  font-family: bold;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+.buildingBlocks {
+  padding-top: 30px;
+  color: #1a1a1a;
+  font-family: bold;
+  font-size: 18px;
+  line-height: 26px;
+}
+.advanceText {
+  color: #000000;
+  font-family: bold;
+  font-size: 12px;
+  line-height: 24px;
+  padding: 8px 0px;
+}
+.iconWithText {
+  padding: 4px 0px;
+}
+.subText {
+  padding-left: 5px;
+  color: #1a1a1a;
+  font-family: regular;
+  font-size: 14px;
+  line-height: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+.personHolder {
+  border-top: 1px solid #b2b2b2;
+  padding: 14px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 14px;
+}
+.ccordianPersonHolder {
+  composes: personHolder;
+  margin-left: 14px;
+  margin-right: 14px;
+}
+.personText {
+  color: #1a1a1a;
+  font-family: bold;
+  font-size: 14px;
+  line-height: 22px;
+}
+.cost {
+  color: #1a1a1a;
+  font-family: regular;
+  font-size: 14px;
+  line-height: 20px;
+}
+.counterText {
+  padding: 0px 20px;
+  vertical-align: middle;
+  color: #4f439a;
+  font-family: bold;
+  font-size: 24px;
+  line-height: 33px;
+  text-align: center;
+}
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+.contentHolder {
+  padding: 0px 30px;
+}
+.counter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.amountHolder {
+  composes: personHolder;
+  border: none;
+  padding: 15px 0px 30px 0px;
+}
+.total {
+  color: #0d1617;
+  font-family: bold;
+  font-size: 12px;
+  line-height: 20px;
+}
+.amount {
+  color: #383737;
+  font-family: bold;
+  font-size: 18px;
+}
+.dataHolder {
+  padding-right: 10px;
+  display: inline-block;
+  margin-left: 14px;
+}
+.accordianHolder {
+  padding: 10px 30px;
+  border: 1px solid #b2b2b2;
+  border-radius: 10px;
+}
+.remaining {
+  color: #ad5da3;
+  font-family: bold;
+  font-size: 12px;
+  line-height: 20px;
+}
+.inputHolder {
+  padding: 10px 0px;
+}
+.button {
+  float: right;
+}
+.attendeStyle {
+  composes: amountHolder;
+  justify-content: flex-end;
+  padding-top: 10px 0px 30px 0px;
+}
+.orderHeaderHolder {
+  display: flex;
+  justify-content: space-between;
+  background: #ebeced;
+  padding: 10px 30px;
+  border: 1px solid #ebeced;
+  border-radius: 10px 10px 0px 0px;
+}
+.reviewHolder {
+  border: 1px solid #b2b2b2;
+  border-radius: 10px;
+}
+.reviewDetailsHolder {
+  padding: 10px 30px;
+}
+.attendeeText {
+  padding: 20px 0px 10px 0px;
+  line-height: 22px;
+  font-size: 14px;
+  font-family: regular;
+  color: #333;
+}
+.taxes {
+  color: #383737;
+  font-family: regular;
+  vertical-align: bottom;
+  font-size: 14px;
+  line-height: 19px;
+}
+.buttonHolder {
+  border: 1px solid #d1cfe3;
+  width: 170px;
+  height: 50px;
+  border-radius: 5px;
+  background: #d1cfe3;
+  cursor: pointer;
+}
+.buttonS {
+  padding: 5px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #4f439a;
+}
+.defaultButtonHolder {
+  composes: buttonHolder;
+  border: 1px solid #fff;
+  background: #e3e3e3;
+}
+.nodata {
+  width: 100%;
+  color: #ad5da3;
+  text-align: center;
+  padding-top: 10px;
+  font-family: bold;
+}
+.remark {
+  font-size: 14px;
+  color: #ad5da3;
+}
+@media only screen and (max-width: 1024px) {
+  .modalBase {
+    width: 100%;
+    height: 100%;
+  }
+  .attendeStyle {
+    justify-content: center;
+  }
+  .verticalScroller {
+    padding: 20px 30px;
+  }
+}

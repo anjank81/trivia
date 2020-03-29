@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+.Applogo {
+  height: 40vmin;
+}
+
+.Appheader {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Applink {
+  color: #09d3ac;
+}
+
+@font-face {
+  font-family: regular;
+  src: url("../src/fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: semibold;
+  src: url("../src/fonts/OpenSans-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: bold;
+  src: url("../src/fonts/OpenSans-Bold.ttf");
+}
+
+.main {
+  width: 100%;
+  height: auto;
+}
+@media only screen and (max-width: 1024px) {
+  .main {
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+  }
+}

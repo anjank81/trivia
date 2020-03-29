@@ -1,0 +1,41 @@
+.feedHeaderContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.profileImage {
+  width: 50px;
+  height: 50px;
+}
+.profileDetails {
+  width: auto;
+  height: auto;
+  margin-left: 12px;
+}
+.profileName {
+  color: #ad5da3;
+  font-family: "bold";
+  font-size: 14px;
+  line-height: 22px;
+}
+.date {
+  color: #7f7f7f;
+  font-family: "regular";
+  font-size: 12px;
+  line-height: 20px;
+}
+@media only screen and (max-width: 1024px) {
+  .profileName {
+    font-size: 12px;
+  }
+  .date {
+    font-size: 10px;
+  }
+  .profileImage {
+    width: 30px;
+    height: 30px;
+  }
+}

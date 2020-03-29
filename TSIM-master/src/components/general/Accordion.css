@@ -1,0 +1,148 @@
+.Accordion {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.Accordion-holder {
+  width: 100%;
+  height: 43px;
+  transition: 300ms;
+  position: relative;
+}
+.Accordion-textBox {
+  height: 100%;
+  color: #4f439a;
+  font-size: 20px;
+  font-family: medium;
+  line-height: 28px;
+  text-align: left;
+  transition: 300ms;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.Accordion-holder:hover {
+  background: #c2c2c2;
+}
+.Accordion-textBoxActive {
+  height: 100%;
+  color: #4f439a;
+  font-size: 20px;
+  font-family: medium;
+  line-height: 28px;
+  text-align: left;
+  transition: 300ms;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin: 0 5px;
+}
+.icon {
+  display: inline-block;
+  padding-right: 18px;
+}
+.AccordionText {
+  composes: Accordion-textBox;
+  font-family: regular;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+.highlightedAccordianText {
+  composes: Accordion-textBox;
+  color: #4f439a;
+  font-family: bold;
+  font-size: 14px;
+  line-height: 20px;
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+}
+.Accordion-text {
+  margin: 0;
+  padding-left: 20px;
+  border: 0;
+  color: #4f439a;
+  font-size: 100%;
+  font-family: condensedBold;
+  vertical-align: baseline;
+}
+.AccordionIcon {
+  width: 25px;
+  height: 25px;
+  border-radius: 4px;
+  background: url("../../images/Open_list_blue.svg") no-repeat;
+  position: absolute;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background-position: center;
+  /* transition: 300ms; */
+}
+.Accordion-iconup {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  background: url("../../images/Open_list_blue.svg") no-repeat;
+  position: absolute;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background-position: center;
+  transition: 300ms;
+  transform: rotate(180deg);
+}
+.activeAccordionIcon {
+  composes: AccordionIcon;
+  background: url("../../images/Close_list_fill.svg") no-repeat;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  width: 25px;
+  height: 25px;
+  border-radius: 4px;
+  position: absolute;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background-position: center;
+  /* transition: 300ms; */
+}
+.Accordion-Badges {
+  display: flex;
+  width: auto;
+}
+.collapse {
+  padding-top: 20px;
+}
+@media only screen and (max-width: 640px) {
+  .AccordionIcon {
+    width: 20px;
+    height: 20px;
+  }
+  .AccordionText {
+    margin-left: 0;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0 20px 0px 0;
+  }
+  .highlightedAccordianText {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

@@ -1,0 +1,488 @@
+.base {
+  width: 100%;
+  height: 100%;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 #b2b2b2;
+}
+.blogFeed {
+  composes: base;
+  margin-top: 20px;
+}
+.feedHeaderContainer {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.feedMenuHolder {
+  position: absolute;
+  top: 36px;
+  right: 19px;
+  z-index: 1;
+}
+
+.dottedRightMenu {
+  width: 16px;
+  height: 19px;
+  position: absolute;
+  top: 20px;
+  right: 13px;
+  background: url("../../images/Overflow-menu-black.svg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.feedImage {
+  cursor: pointer;
+  width: 100%;
+  height: 300px;
+}
+.container {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+.tagContainer {
+  cursor: pointer;
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-bottom: 10px;
+}
+.tag {
+  width: auto;
+  height: auto;
+  padding: 0px 5px;
+  border: 1px solid #b2b2b2;
+  border-radius: 15px;
+  color: #1a1a1a;
+  font-family: "bold";
+  font-size: 10px;
+  line-height: 18px;
+  text-align: center;
+  margin-right: 5px;
+}
+.more {
+  height: 20px;
+  width: 20px;
+  background-color: rgba(79, 67, 154, 0.3);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: top;
+  font-size: 10px;
+  font-family: "bold";
+  line-height: 18px;
+  color: #1a1a1a;
+}
+.feedHeading {
+  color: #1a1a1a;
+  font-family: "bold";
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 8px;
+  word-break: break-word;
+}
+.feedDescription {
+  color: #1a1a1a;
+  font-family: "regular";
+  font-size: 14px;
+  line-height: 22px;
+  word-break: break-all;
+  white-space: pre-line;
+  margin-bottom: 5px;
+}
+.hashTagContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+}
+.hashTag {
+  color: #4f439a;
+  font-family: "regular";
+  font-size: 14px;
+  line-height: 18px;
+}
+.eventDetailsContainer {
+  width: 100%;
+  height: auto;
+  padding: 10px 0px;
+  border-bottom: 1px solid #ebeced;
+}
+.time {
+  color: #1a1a1a;
+  font-family: "semibold";
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  padding-left: 26px;
+  position: relative;
+}
+.time::before {
+  cursor: pointer;
+  content: "";
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: url("../../images/time-grey.svg");
+  background-position: center;
+  background-size: cover;
+}
+.eventDate {
+  color: #1a1a1a;
+  font-family: "semibold";
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  padding-left: 26px;
+  position: relative;
+}
+.eventDate::before {
+  cursor: pointer;
+  content: "";
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: url("../../images/Date.svg");
+  background-position: center;
+  background-size: cover;
+}
+.location {
+  color: #1a1a1a;
+  font-family: "semibold";
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  padding-left: 26px;
+  position: relative;
+}
+.location::before {
+  content: "";
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: url("../../images/Location-white.svg");
+  background-position: center;
+  background-size: cover;
+}
+.cost {
+  color: #1a1a1a;
+  font-family: "semibold";
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  padding-left: 26px;
+  position: relative;
+}
+.cost::before {
+  cursor: pointer;
+  content: "";
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: url("../../images/Ticketprice.svg");
+  background-position: center;
+  background-size: cover;
+}
+.buttonContainer {
+  display: flex;
+  padding: 15px 0px;
+}
+.buttonHolder {
+}
+.registrationdetailsContainer {
+  cursor: pointer;
+  display: flex;
+}
+.intrested {
+  margin-left: 10px;
+  font-size: 12px;
+  font-family: "bold";
+  color: #7f7f7f;
+  display: flex;
+  align-items: center;
+}
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #ebeced;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: -5px;
+  vertical-align: top;
+}
+.more {
+  height: 25px;
+  width: 25px;
+  background-color: #7f7f7f;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: top;
+  font-size: 12px;
+}
+.likesSection {
+  display: flex;
+  padding: 15px;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid #ebeced;
+  position: relative;
+}
+.disable {
+  composes: buttonHolder;
+  opacity: 0.5;
+}
+
+.likes {
+  color: #7f7f7f;
+  font-family: "semibold";
+  font-size: 12px;
+  line-height: 17px;
+  position: relative;
+  cursor: pointer;
+}
+.likes::before {
+  cursor: pointer;
+  content: "";
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  top: 0px;
+  left: -20px;
+  background: url("../../images/Staron.svg");
+  background-position: center;
+  background-size: cover;
+}
+.unlikes {
+  color: #7f7f7f;
+  font-family: "semibold";
+  font-size: 12px;
+  line-height: 17px;
+  position: relative;
+  cursor: pointer;
+}
+.unlikes::before {
+  cursor: pointer;
+  content: "";
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  top: 0px;
+  left: -20px;
+  background: url("../../images/Staroff.svg");
+  background-position: center;
+  background-size: cover;
+}
+.comment {
+  color: #7f7f7f;
+  font-family: "semibold";
+  font-size: 12px;
+  line-height: 17px;
+  position: relative;
+  cursor: pointer;
+}
+.comment::before {
+  cursor: pointer;
+  content: "";
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  top: 0px;
+  left: -20px;
+  background: url("../../images/Comment.svg");
+  background-position: center;
+  background-size: cover;
+}
+.share {
+  color: #7f7f7f;
+  font-family: "semibold";
+  font-size: 12px;
+  line-height: 17px;
+  position: relative;
+  cursor: pointer;
+}
+.share::before {
+  /* cursor: pointer; */
+  content: "";
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  top: 0px;
+  left: -20px;
+  background: url("../../images/ForwardLine.svg");
+  background-position: center;
+  background-size: cover;
+  opacity: 0.6;
+}
+
+.pollingResultContainer {
+  width: 100%;
+  height: auto;
+}
+.completeCourseImagesContainer {
+  width: 100%;
+  height: auto;
+}
+.completeCourseImagesContainer {
+  width: 100%;
+  height: auto;
+}
+.overlay {
+  position: relative;
+  bottom: 60px;
+  display: block;
+  /* width: 525px; */
+  height: 20%;
+  color: #ffffff;
+  background-color: rgba(26, 26, 26, 0.68);
+  z-index: 1;
+  cursor: pointer;
+}
+.overlayhead {
+  color: #ffffff;
+  font-size: 16px;
+  padding-left: 16px;
+}
+.feedOverLay {
+  composes: overlay;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.overlayurl {
+  color: #ffffff;
+  font-size: 12px;
+  padding-left: 17px;
+  padding-top: 5px;
+}
+.commentcont {
+  height: 50px;
+}
+.commentprofile {
+  cursor: pointer;
+  border-radius: 100%;
+  margin-left: 20px;
+}
+.commsec {
+  display: flex;
+}
+.ans {
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  color: #4f439a;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 22px;
+}
+.drop {
+  padding-left: 5px;
+  cursor: pointer;
+}
+.commentholder {
+  display: flex;
+}
+.profilename {
+  font-size: 12px;
+  font-family: bold;
+  padding-left: 10px;
+}
+.degn {
+  color: #7f7f7f;
+  font-size: 12px;
+  padding-left: 10px;
+  padding-top: 3px;
+}
+.comment_text {
+  color: #333333;
+  font-size: 14px;
+  /* width: 440px; */
+  padding-left: 10px;
+  padding-bottom: 10px;
+  line-height: 22px;
+}
+.dropupcont {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+.dropup {
+  height: 15px;
+  width: 15px;
+}
+.dropup:hover {
+  cursor: pointer;
+}
+.drouptxt {
+  font-size: 12px;
+  padding-left: 4px;
+  color: #7f7f7f;
+}
+.droupcont {
+  display: flex;
+}
+.commentBox {
+  border: 1px solid #4f439a;
+  display: flex;
+  height: 40px;
+  width: 440px;
+  padding: 8px 0px 7px 7px;
+  border-radius: 5px;
+}
+.commentinp {
+  width: 100%;
+  padding: 10px;
+}
+.commentbut {
+  height: 25px;
+  width: 60px;
+  background-color: #4f439a;
+  color: #ffffff;
+  border-radius: 2px;
+  border: none;
+  font-family: bold;
+  outline: none;
+}
+.commentinpprofile {
+  border-radius: 100%;
+}
+.combutcont {
+  margin: 0 9px 8px 0px;
+}
+.readMore {
+  font-size: 16px;
+  line-height: 24px;
+  color: #4f439a;
+  font-family: bold;
+}
+.sharemenu {
+  display: flex;
+  outline: none;
+  position: absolute;
+  bottom: 38px;
+  right: 0;
+}
+@media only screen and (max-width: 1024px) {
+  .buttonContainer {
+    display: block;
+    padding: 15px 0px;
+  }
+  .buttonHolder {
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,101 @@
+.base {
+  width: 17.33%;
+  height: auto;
+  border: 1px solid #ebeced;
+  border-radius: 12px;
+  padding: 44.33px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.base:nth-child(even) {
+  margin: 0 25px;
+  margin-top: 25px;
+}
+
+.addprofileImage {
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  background: url("../images/Add-Fill-color.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+}
+
+.noprofileImage {
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  margin: 0 auto;
+  border: 1px solid #ebeced;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.profileImage {
+  composes: addprofileImage;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.milestoneTitle {
+  color: #4f439a;
+  font-family: bold;
+  font-size: 16px;
+  font-family: bold;
+  line-height: 24px;
+  text-align: center;
+}
+
+.joining {
+  color: #333333;
+  font-family: regular;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.milestoneEmptyText {
+  color: #1a1a1a;
+  font-family: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .base {
+    width: 46.33%;
+    padding: 14.33px;
+    /* margin-top: 0; */
+  }
+
+  .base:nth-child(1) {
+    margin-top: 0;
+    margin-right: 0;
+  }
+
+  .base:nth-child(2) {
+    margin-top: 0;
+    margin-right: 0;
+  }
+
+  .base:nth-child(even) {
+    /* margin-top: 0; */
+    margin-right: 0;
+  }
+
+  .milestoneTitle {
+    font-size: 14px;
+    font-family: bold;
+    line-height: 22px;
+  }
+}

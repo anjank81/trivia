@@ -1,0 +1,17 @@
+.iconWithText {
+  width: auto;
+  height: auto;
+}
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+.subText {
+  padding-left: 5px;
+  color: #1a1a1a;
+  font-family: regular;
+  font-size: 14px;
+  line-height: 20px;
+  display: inline-block;
+  vertical-align: top;
+}

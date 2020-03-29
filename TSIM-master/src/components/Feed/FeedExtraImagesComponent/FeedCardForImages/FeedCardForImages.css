@@ -1,0 +1,299 @@
+.base {
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    border-radius: 10px;
+  }
+  .feedHeaderContainer {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .feedMenuHolder {
+    position: absolute;
+    top: 36px;
+    right: 19px;
+    z-index: 1;
+  }
+  
+  .dottedRightMenu {
+    width: 16px;
+    height: 19px;
+    position: absolute;
+    top: 20px;
+    right: 13px;
+    background: url("../../../../images/Overflow-menu-black.svg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+  }
+  
+  .feedImage {
+    width: 100%;
+    height: 300px;
+  }
+  .container {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border-top: 1px solid #b2b2b2;
+  }
+  .tagContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-bottom: 10px;
+  }
+  .tag {
+    width: auto;
+    height: auto;
+    padding: 0px 5px;
+    border: 1px solid #b2b2b2;
+    border-radius: 15px;
+    color: #1a1a1a;
+    font-family: "bold";
+    font-size: 10px;
+    line-height: 18px;
+    text-align: center;
+    margin-right: 5px;
+  }
+  .more {
+    height: 20px;
+    width: 20px;
+    background-color: rgba(79, 67, 154, 0.3);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: top;
+    font-size: 10px;
+    font-family: "bold";
+    line-height: 18px;
+    color: #1a1a1a;
+  }
+  .feedHeading {
+    color: #1a1a1a;
+    font-family: "bold";
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 8px;
+  }
+  .feedDescription {
+    color: #1a1a1a;
+    font-family: "regular";
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 5px;
+  }
+  .hashTagContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+  .hashTag {
+    color: #4f439a;
+    font-family: "regular";
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .eventDetailsContainer {
+    width: 100%;
+    height: auto;
+    padding: 10px 0px;
+    border-bottom: 1px solid #ebeced;
+  }
+  .time {
+    color: #1a1a1a;
+    font-family: "semibold";
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    padding-left: 26px;
+    position: relative;
+  }
+  .time::before {
+    content: "";
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: url("../../../../images/Edit-profile.svg");
+    background-position: center;
+    background-size: cover;
+  }
+  .eventDate {
+    color: #1a1a1a;
+    font-family: "semibold";
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    padding-left: 26px;
+    position: relative;
+  }
+  .eventDate::before {
+    content: "";
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: url("../../../../images/Edit-profile.svg");
+    background-position: center;
+    background-size: cover;
+  }
+  .location {
+    color: #1a1a1a;
+    font-family: "semibold";
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    padding-left: 26px;
+    position: relative;
+  }
+  .location::before {
+    content: "";
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: url("../../../../images/Edit-profile.svg");
+    background-position: center;
+    background-size: cover;
+  }
+  .cost {
+    color: #1a1a1a;
+    font-family: "semibold";
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    padding-left: 26px;
+    position: relative;
+  }
+  .cost::before {
+    content: "";
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: url("../../../../images/Edit-profile.svg");
+    background-position: center;
+    background-size: cover;
+  }
+  .buttonContainer {
+    display: flex;
+    padding: 15px 0px;
+  }
+  .buttonHolder {
+  }
+  .registrationdetailsContainer {
+    display: flex;
+  }
+  .intrested {
+    margin-left: 10px;
+    font-size: 12px;
+    font-family: "bold";
+    color: #7f7f7f;
+    display: flex;
+    align-items: center;
+  }
+  .dot {
+    height: 25px;
+    width: 25px;
+    background-color: #ececec;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: -5px;
+    vertical-align: top;
+  }
+  .more {
+    height: 25px;
+    width: 25px;
+    background-color: #7f7f7f;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: top;
+    font-size: 12px;
+  }
+  .likesSection {
+    display: flex;
+    padding: 15px;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid #ebeced;
+  }
+  .likes {
+    color: #7f7f7f;
+    font-family: "semibold";
+    font-size: 12px;
+    line-height: 17px;
+    position: relative;
+  }
+  .likes::before {
+    content: "";
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    top: 0px;
+    left: -20px;
+    background: url("../../../../images/Staroff.svg");
+    background-position: center;
+    background-size: cover;
+  }
+  .comment {
+    color: #7f7f7f;
+    font-family: "semibold";
+    font-size: 12px;
+    line-height: 17px;
+    position: relative;
+    cursor: pointer;
+  }
+  .comment::before {
+    content: "";
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    top: 0px;
+    left: -20px;
+    background: url("../../../../images/Comment.svg");
+    background-position: center;
+    background-size: cover;
+  }
+  .share {
+    color: #7f7f7f;
+    font-family: "semibold";
+    font-size: 12px;
+    line-height: 17px;
+    position: relative;
+  }
+  .share::before {
+    content: "";
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    top: 0px;
+    left: -20px;
+    background: url("../../../../images/Sharefill.svg");
+    background-position: center;
+    background-size: cover;
+  }
+  .pollingConatiner {
+    margin-top: 15px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .pollingResultContainer
+  {
+    width:100%;
+    height: auto;
+  }
+  .completeCourseImagesContainer
+  {
+    width:100%;
+    height: auto;
+  }

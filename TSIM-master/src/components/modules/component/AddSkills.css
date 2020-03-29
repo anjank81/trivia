@@ -1,0 +1,108 @@
+.base {
+  width: 30vw;
+  height: 50vh;
+  background: #fff;
+  padding: 40px;
+}
+
+.title {
+  font-size: 22px;
+  font-family: bold;
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+
+.buttonContainer {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.selectSection {
+  position: relative;
+}
+
+.addButton {
+  background: url("../../../images/Add-Fill-color.svg") no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 50px;
+  bottom: 10px;
+}
+
+.tags_input {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 5px;
+  font-size: 10px;
+}
+
+input {
+  width: "100%";
+  border: none;
+  outline: none;
+}
+
+.tag {
+  margin-right: 5px;
+  padding: 3px 15px;
+  font-family: bold;
+  color: #1a1a1a;
+  line-height: 18px;
+  border: 1px solid #4f439a;
+  border-radius: 15px;
+  display: "flex";
+  margin-bottom: 10px;
+}
+.fixedTag {
+  composes: tag;
+  color: #4f439a;
+  font-family: bold;
+}
+.delete {
+  display: inline-block;
+  margin-left: 15px;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #ebeced;
+  color: #ebeced;
+  font-size: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.delete:after {
+  content: "X";
+  color: #1a1a1a;
+  width: 15px;
+  height: 15px;
+  line-height: 15px;
+  text-align: center;
+}
+
+.css-1hwfws3 {
+  display: none !important;
+}
+@media only screen and (max-width: 768px) {
+  .base {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    padding: 40px;
+  }
+
+  .backImg {
+    height: 18px;
+    width: 18px;
+    margin-top: 16px;
+    margin-right: 2px;
+    margin-bottom: 25px;
+  }
+}

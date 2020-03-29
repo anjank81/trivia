@@ -1,0 +1,30 @@
+.base {
+  width: auto;
+  height: auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.connection {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.firstConnection {
+  composes: connection;
+}
+
+.secondConnection {
+  composes: connection;
+  left: 12px;
+  padding-right: 15px;
+}
+
+.numberOfConnections {
+  position: relative;
+  left: 50px;
+}

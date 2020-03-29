@@ -1,0 +1,58 @@
+.base {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 #b2b2b2;
+}
+.heading {
+  width: 100%;
+  height: auto;
+  padding: 15px;
+  border-bottom: 1px solid #ebeced;
+  color: #1a1a1a;
+  font-family: "bold";
+  font-size: 14px;
+  line-height: 20px;
+}
+.topicBase {
+  width: 100%;
+  padding: 15px;
+  height: auto;
+  max-height: 280px;
+  overflow-y: auto;
+}
+.topicContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 32px;
+  cursor: pointer;
+}
+.topic {
+  color: #7f7f7f;
+  font-family: "bold";
+  font-size: 12px;
+  line-height: 17px;
+}
+.topicSelected {
+  composes: topic;
+  color: #4f439a;
+}
+.checkIcon {
+  width: 20px;
+  height: 20px;
+  background: url("../../images/check-mark-button.svg");
+  background-position: center;
+  background-size: cover;
+  visibility: hidden;
+}
+.checkIconVisible {
+  composes: checkIcon;
+  visibility: visible;
+}
+.buttonContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

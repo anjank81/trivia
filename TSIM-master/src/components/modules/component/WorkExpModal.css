@@ -1,0 +1,156 @@
+.centermodal {
+  background: #ffffff;
+  width: 100%;
+  margin: auto;
+  height: auto;
+  color: #222;
+  border-radius: 10px;
+  min-height: auto;
+  padding: 25px;
+  max-width: 100%;
+}
+.workheader {
+  color: #1a1a1a;
+  font-family: bold;
+  font-size: 18px;
+  font-family: regular;
+  line-height: 24px;
+  display: inline-block;
+}
+.back {
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 5.5px;
+  transform: rotate(135deg);
+}
+.label {
+  font-size: 14px;
+  font-family: bold;
+  padding: 10px;
+}
+
+.headerCont {
+  /* padding-left: 40px; */
+  padding-top: 36px;
+}
+.inputBox {
+  box-sizing: border-box !important;
+  border: 1px solid #b2b2b2 !important;
+  border-radius: 5px !important;
+  padding: 15px !important;
+}
+
+.txtarea {
+  width: 540px;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  height: 120px;
+  width: 540px;
+  border: 1px solid #b2b2b2;
+  border-radius: 5px;
+  font-size: 16px;
+  resize: none;
+}
+.txtarea::placeholder {
+  font-size: 14px;
+  font-family: regular;
+}
+.brdr {
+  border-bottom: 1px solid #b2b2b2;
+  width: 100%;
+}
+
+.workicon {
+  cursor: pointer;
+  display: flex;
+  padding: 20px 0px;
+}
+.active {
+  background-color: #4f439a;
+  margin-right: 20px;
+  border-radius: 100%;
+}
+input[type="radio"] {
+  height: 18px;
+  width: 18px;
+  background-color: #4f439a;
+  color: #4f439a;
+}
+input[type="date"] {
+  box-sizing: border-box;
+  height: 47px;
+  width: 334px;
+  border: 1px solid #b2b2b2;
+  border-radius: 5px;
+  padding-right: 7px;
+  border: none;
+}
+input[type="file"] {
+  color: transparent;
+}
+.workiconcont {
+  padding-right: 20px;
+}
+.buttonCont {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  bottom: 0;
+  width: 100%;
+  /*  position: absolute;
+  bottom: 25px; */
+}
+.uploadcont {
+  padding-left: 5px;
+  display: flex;
+  align-items: center;
+}
+.inpcont {
+  /* padding-left: 35px;
+  padding-right: 15px; */
+}
+.radiocont {
+  display: flex;
+}
+
+label {
+  color: #4f439a;
+}
+.datecont {
+  display: flex;
+  padding-bottom: 10px;
+}
+.checkcont {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+input[type="checkbox"] {
+  height: 18px;
+  width: 18px;
+}
+.checktxt {
+  padding-left: 10px;
+  color: #7f7f7f;
+  font-size: 14px;
+}
+.inputHolder {
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+.radioco {
+  display: flex;
+  padding: 10px 0;
+}
+.desccont {
+  padding-left: 3px;
+  padding-top: 10px;
+}
+
+.buttonText {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 10px;
+}

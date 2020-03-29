@@ -1,0 +1,580 @@
+.base {
+    width: 100%;
+    height: auto;
+    background: #ececec;
+    min-height: 100vh;
+  }
+  
+  .heading {
+    margin-top: 40px;
+    margin-bottom: 25px;
+    width: 100%;
+    height: auto;
+    color: #333333;
+    font-family: "bold";
+    font-size: 28px;
+    line-height: 36px;
+  }
+  
+  .bannerEventDetailsContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+  }
+  
+  .bannerEventDetails {
+    width: 100%;
+    height: auto;
+  }
+  
+  .tagContainer {
+    width: 100%;
+    height: auto;
+  }
+  
+  .tagButton {
+    width: 90px;
+    height: 30px;
+    background: rgba(255, 255, 255, 0.3);
+    color: #ffffff;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    font-family: bold;
+    justify-content: center;
+  }
+  
+  .eventHeading {
+    width: 100%;
+    height: auto;
+    color: #ffffff;
+    font-family: "bold";
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .dateAndPlaceContainer {
+    width: 100%;
+    height: auto;
+    font-size: 12px;
+    line-height: 18px;
+    color: #fff;
+    font-family: 600;
+    margin-bottom: 10px;
+  }
+  
+  .dot {
+    height: 3px;
+    width: 3px;
+    background-color: #ffff;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px 10px;
+  }
+  
+  .viewEventButtonContainer {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  .dataHolderWrapper {
+    width: 100%;
+    height: auto;
+    position: relative;
+    min-height: 100vh;
+    padding: 0px 25% 0px 25%;
+  }
+  
+  .leftSidePannel {
+    width: 25%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 15px;
+  }
+  
+  .addMoreIntrestContainer {
+    width: 100%;
+    height: 372px;
+  
+    margin-bottom: 25px;
+  }
+  
+  .dataDiv {
+    width: 100%;
+    height: 372px;
+    border: 1px solid black;
+    margin-bottom: 25px;
+  }
+  
+  .feedsContainer {
+    width: 100%;
+    height: auto;
+    margin-bottom: 25px;
+  }
+  
+  .recommendedConnectionContainer {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .myProfileSection {
+    width: 100%;
+    height: 372px;
+    margin-bottom: 10px;
+  }
+  
+  .rightSidePannel {
+    width: 25%;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 15px;
+  }
+  
+  .centerSection {
+    width: 100%;
+    height: auto;
+    min-height: 400px;
+    padding: 15px 20px 0px 15px;
+  }
+  
+  .caurosel {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  .cauroselData {
+    width: 100%;
+    height: 280px;
+    display: inline-block;
+  }
+  
+  .GuideCauroselData {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+  }
+  
+  .slider {
+    width: 100%;
+    height: auto;
+    transition: 300ms;
+    white-space: nowrap;
+  }
+  
+  .forwrdBackContainer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #1a1a1a;
+  }
+  
+  .forwrdBack {
+    width: 100%;
+    height: auto;
+    display: flex;
+    text-align: center;
+  }
+  
+  .forward {
+    height: 30px;
+    width: 30px;
+    background: url("../../../images/Nextline.svg");
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+  }
+  
+  .back {
+    height: 30px;
+    width: 30px;
+    background: url("../../../images/PrevLine.svg");
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    margin-right: 12px;
+  }
+  
+  .viewAllButtonContainer {
+    width: auto;
+    height: auto;
+    display: flex;
+  }
+  
+  .indicatorHolder {
+    width: 100%;
+    max-width: 500px;
+    margin: 30px auto 30px;
+    height: auto;
+  }
+  
+  .imageDisplaySection {
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin-bottom: 15px;
+  }
+  
+  .leftImage {
+    width: 30%;
+    height: auto;
+    min-height: 410px;
+    display: flex;
+    padding: 0.5%;
+  }
+  
+  .leftImgCont {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+  }
+  
+  .rightImageHolder {
+    width: 70%;
+    height: auto;
+    display: flex;
+    padding-left: 0.5%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .smallImage {
+    width: 49%;
+    height: 205px;
+    display: flex;
+  
+    margin: 0.5%;
+    position: relative;
+  }
+  
+  .storiesHeading {
+    width: 100%;
+    height: auto;
+    color: #ffffff;
+    font-family: "bold";
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 15px;
+  }
+  
+  .bannerStoryContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding: 10px;
+  }
+  
+  .imageEventBanner {
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px 0px 0px 10px;
+  }
+  
+  .popularQuestionContainer {
+    border-radius: 0 10px 0 0;
+    background-color: #4f439a;
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+  }
+  
+  .popularQuestionHeading {
+    width: 100%;
+    height: auto;
+    color: #e0deed;
+    font-family: "bold";
+    font-size: 10px;
+    line-height: 26px;
+    padding-left: 40px;
+    position: relative;
+  }
+  
+  .popularQuestionHeading::before {
+    content: "";
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("../../../images/Askquestion.svg");
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .question {
+    width: 100%;
+    height: auto;
+    color: #ffffff;
+    font-family: "bold";
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 12px;
+  }
+  
+  .answerButton {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+  
+  .connectProfileContainer {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+  }
+  
+  .coverImageForConnectionProfile {
+    width: 100%;
+    height: 40%;
+    position: relative;
+  }
+  
+  .connectProfileHolder {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 54px;
+    padding-left: 24px;
+  }
+  
+  .connectProfileImageHolder {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .connectProfileImage {
+    border-radius: 50%;
+  }
+  
+  .profileName {
+    color: #1a1a1a;
+    font-family: "bold";
+    font-size: 18px;
+    line-height: 20px;
+    padding-top: 20px;
+  }
+  
+  .connectProfileDetailsContainer {
+    margin-top: 70px;
+    padding: 0px 24px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .connectProfileDetails {
+    width: auto;
+    height: auto;
+  }
+  
+  .connectProfileDesignations {
+    color: #7f7f7f;
+    font-family: "regular";
+    font-size: 12px;
+    line-height: 18px;
+  }
+  
+  .connectProfileTags {
+    color: #1a1a1a;
+  
+    font-family: "bold";
+    font-size: 12px;
+    line-height: 20px;
+  }
+  
+  .connectProfileTagsMoreThenOne {
+    color: #4f439a;
+  }
+  
+  .image {
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    top: 0;
+  }
+  
+  .profileConnectionHeading {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    color: #1a1a1a;
+    font-family: "bold";
+    font-size: 16px;
+    line-height: 24px;
+  }
+  
+  .guideRecommendedHeading {
+    color: #1a1a1a;
+    font-family: "bold";
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .recommendedConnectionHeader {
+    color: #1a1a1a;
+    font-family: "bold";
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .createPostContainer {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    margin-bottom: 36px;
+  }
+  
+  .createPostNav {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+  }
+  
+  .writePost {
+    color: #4f439a;
+    font-family: "bold";
+    font-size: 12px;
+    line-height: 20px;
+    position: relative;
+  }
+  
+  .writePost::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    left: -24px;
+    background: url("../../../images/Createpost.svg");
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .askQuestion {
+    color: #1a1a1a;
+    font-family: "bold";
+    font-size: 12px;
+    line-height: 20px;
+    position: relative;
+  }
+  
+  .askQuestion::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    left: -24px;
+    background: url("../../../images/Askquestion.svg");
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .createPoll {
+    color: #1a1a1a;
+    font-family: "bold";
+    font-size: 12px;
+    line-height: 20px;
+    position: relative;
+  }
+  
+  .createPoll::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 0;
+    left: -24px;
+    background: url("../../../images/Createpoll.svg");
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .imageAndInputHolder {
+    width: 100%;
+    height: 60px;
+    background: rgba(235, 236, 237, 0.5);
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .createPostContainerImage {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .recentAndTopPickContainer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+    position: relative;
+  }
+  
+  .recentAndTopPickContainer::before {
+    content: "";
+    border-bottom: 1px solid #7f7f7f;
+    height: 1px;
+    width: 74%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+  }
+  
+  .recent {
+    color: #1a1a1a;
+    font-family: "bold";
+    font-size: 14px;
+    line-height: 19px;
+    margin-right: 20px;
+  }
+  
+  .topPick {
+    color: #b2b2b2;
+    font-family: "bold";
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 19px;
+  }
+  
+  .fixedHeader {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    transition: 0.5s;
+    z-index: 1;
+    background: #fff;
+    z-index: 2;
+  }

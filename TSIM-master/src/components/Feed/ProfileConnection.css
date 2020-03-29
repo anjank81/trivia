@@ -1,0 +1,64 @@
+.connectProfileContainer {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+.coverImageForConnectionProfile {
+  cursor: pointer;
+  width: 100%;
+  height: 106px;
+  position: relative;
+}
+.connectProfileHolder {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 80px;
+  padding-left: 24px;
+}
+.connectProfileImageHolder {
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  border-radius: 50%;
+}
+.connectProfileImage {
+  border-radius: 50%;
+}
+.profileName {
+  color: #1a1a1a;
+  font-family: "bold";
+  font-size: 14px;
+  line-height: 20px;
+  padding-top: 20px;
+}
+.connectProfileDetailsContainer {
+  margin-top: 56px;
+  padding: 0px 24px;
+}
+.connectProfileDetails {
+  width: auto;
+  height: auto;
+}
+.connectProfileDesignations {
+  color: #7f7f7f;
+  font-family: "regular";
+  font-size: 12px;
+  line-height: 18px;
+}
+.connectProfileTags {
+  color: #1a1a1a;
+
+  font-family: "bold";
+  font-size: 12px;
+  line-height: 20px;
+}
+.connectProfileTagsMoreThenOne {
+  color: #4f439a;
+}
+.connectionButton {
+  margin-top: 15px;
+}

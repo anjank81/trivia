@@ -1,0 +1,22 @@
+.inp {
+  border: none;
+  border-radius: 5.5px;
+  padding: 10px;
+  width: 100%;
+}
+.inpicocont {
+  border: none;
+  margin-right: 20px;
+  display: flex;
+  width: 100%;
+  border-radius: 5px;
+}
+.icon {
+  margin-top: 8px;
+  margin-right: 8px;
+  opacity: 0.2;
+  margin-bottom: 7px;
+}
+.icon:hover {
+  cursor: pointer;
+}

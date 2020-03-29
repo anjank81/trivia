@@ -1,0 +1,85 @@
+.headerBase {
+  width: 100vw;
+  height: 80px;
+}
+.headerHolder {
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+.logoHolder {
+  width: 165px;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  background: url("../../images/tsim_logo.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter: brightness(10);
+}
+.searchLoginHolder {
+  justify-content: flex-end;
+}
+.linkText {
+  padding: 0px 15px;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.search {
+  padding-left: 20px;
+  position: relative;
+  width: auto;
+  vertical-align: middle;
+  display: inline-block;
+  transition: 0.5s;
+}
+.searchInput {
+  composes: search;
+  width: 75%;
+}
+.buttonHolder {
+  position: relative;
+}
+.buttonHolder::before {
+  content: "";
+  border-left: 1px solid #fff;
+  height: 25px;
+  position: absolute;
+  top: 6px;
+  left: 20px;
+}
+.login {
+  display: inline-block;
+}
+.signup {
+  display: inline-block;
+}
+.linkHolder {
+  display: inline-block;
+}
+.buttonHolder {
+  display: inline-block;
+}
+
+@media only screen and (max-width: 1024px) {
+  .logoHolder {
+    width: 30px;
+    height: 30px;
+    background: url(../../images/TSIM_Favicon-white.svg) no-repeat;
+    background-size: cover;
+    background-position-x: right;
+    margin-left: 5px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+  }
+  .headerHolder {
+    padding: 20px;
+  }
+}

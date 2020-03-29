@@ -1,0 +1,12 @@
+.inputbox {
+  box-sizing: border-box;
+  /* height: 50px;
+  width: 540px; */
+  border: 1px solid #b2b2b2;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+.inpcont {
+  padding-right: 7px;
+}

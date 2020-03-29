@@ -1,0 +1,178 @@
+.navigatorTitleHeader {
+  bottom: 0px;
+  left: 0;
+  width: 100%;
+  position: fixed;
+  background: rgb(255, 255, 255);
+  box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  height: auto;
+  white-space: nowrap;
+  overflow-x: hidden;
+  padding: 20px 25px;
+  z-index: 1;
+}
+
+.navigator {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.nav {
+  width: auto;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 2%;
+}
+
+.navigationLinks {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 22px;
+  font-family: bold;
+  color: #333;
+  opacity: 0.5;
+}
+
+.navigationLinks:first-child {
+  padding-left: 0;
+}
+
+/* .navigationLinks:nth-child(3) {
+  padding: 0 5px;
+} */
+
+.navigationLinks:last-child {
+  padding-right: 0;
+}
+
+.divideLine {
+  display: none;
+}
+
+.visited {
+  composes: navigationLinks;
+  color: #5200d4;
+  opacity: 1;
+}
+
+.disabledDiv {
+  padding: 0 15px;
+}
+
+.disableNavigationLinks:nth-child(3) {
+  padding: 0 15px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.headerItem {
+  display: flex;
+}
+
+.disabled {
+  composes: navigationLinks;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  margin: 0 auto;
+}
+
+.homeIcon {
+  composes: icon;
+  background: url(../../images/Home.svg) no-repeat;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.homeVisited {
+  composes: homeIcon;
+  background: url(../../images/Home_selected_blue.svg) no-repeat;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.peopleIcon {
+  composes: icon;
+  background: url(../../images/Connection_line.svg) no-repeat;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  pointer-events: none;
+  opacity: 0.5;
+}
+.peopleVisited {
+  composes: peopleIcon;
+  background: url(../../images/Connection_fill_blue.svg) no-repeat;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  opacity: 0.5;
+  background-size: contain;
+}
+.resourceIcon {
+  composes: icon;
+  background: url(../../images/Add_Fill.svg) no-repeat;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 35px;
+  height: 35px;
+}
+.resourceVisited {
+  composes: resourceIcon;
+  background: url(../../images/Add-Fill-color.svg) no-repeat;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 35px;
+  height: 35px;
+}
+
+.profileIcon {
+  composes: icon;
+  background: url(../../images/Profile_Line.svg) no-repeat;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.profileVisited {
+  composes: profileIcon;
+  background: url(../../images/Profile_Fill_blue.svg) no-repeat;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.moreIcon {
+  composes: icon;
+  background: url(../../images/Menu_Line.svg) no-repeat;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.moreVisited {
+  composes: moreIcon;
+  background: url(../../images/Menu_Fill_blue.svg) no-repeat;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media only screen and (min-width: 768px) {
+  .navigationLinks {
+    padding: 0 15px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .navigatorTitleHeader {
+    padding: 22px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .navigationLinks {
+    padding: 0 15px;
+  }
+}

@@ -1,0 +1,500 @@
+.base {
+  width: 100%;
+  height: auto;
+  padding: 60px 0px 40px 0px;
+  background: #ebeced;
+}
+
+.headerHolder {
+  padding-bottom: 20px;
+}
+
+.bannerDescHolder {
+  width: 100%;
+  height: 550px;
+  vertical-align: top;
+  display: inline-block;
+  background: #fff;
+}
+
+.bannerImage {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  vertical-align: top;
+}
+
+.descriptionBase {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  vertical-align: top;
+  position: relative;
+}
+
+.descriptionContainer {
+  width: 100%;
+  height: auto;
+  padding: 52px 28px 0px 28px;
+}
+
+.registrationdetails {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  padding: 5px 28px;
+  bottom: 0;
+  position: absolute;
+  border-top: 1px solid #ebeced;
+  border-bottom: 1px solid #ebeced;
+}
+
+.registrationdetailsContainer {
+  display: flex;
+}
+
+.intrested {
+  margin-left: 10px;
+  font-size: 12px;
+  font-family: "bold";
+  color: #b3b3b3;
+  display: flex;
+  align-items: center;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #ebeced;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: -5px;
+  vertical-align: top;
+}
+
+.more {
+  height: 25px;
+  width: 25px;
+  background-color: #ebeced;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: top;
+  font-size: 12px;
+}
+
+.round3 {
+  border: 1px solid lightgrey;
+  border-radius: 15px;
+  height: 30px;
+  width: 120px;
+  margin-left: 35%;
+  color: grey;
+  padding-top: 10px;
+}
+
+.tagContainer {
+  width: 100%;
+  height: auto;
+  margin-bottom: 25px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tagButton {
+  width: 120px;
+  height: 25px;
+  background: #7f7f7f;
+  color: #ffffff;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  font-family: bold;
+  justify-content: center;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+.eventHeading {
+  width: 100%;
+  height: auto;
+  color: #1a1a1a;
+  font-family: "bold";
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.eventlevel {
+  color: #000000;
+  font-family: "regular";
+  font-size: 14px;
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+
+.eventHostBy {
+  composes: eventlevel;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.eventAddressBase {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.eventAdressContainer {
+  width: 90%;
+  height: auto;
+  display: inline-block;
+}
+
+.eventPlaceName {
+  width: 100%;
+  height: auto;
+  color: #000000;
+  font-family: "bold";
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.address {
+  color: #828282;
+  font-family: "regular";
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.mapContainer {
+  width: 10%;
+  height: auto;
+  display: inline-block;
+}
+
+.eventDetails {
+  display: flex;
+  margin-top: 32px;
+  margin-bottom: 20px;
+}
+
+.eventTime {
+  padding: 0px 0px 0px 23px;
+  position: relative;
+  color: #1a1a1a;
+  font-family: "semibold";
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.eventTime:before {
+  content: "";
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  background: url(../../images/time.svg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  left: 0px;
+  top: 2px;
+}
+
+.eventDate {
+  padding: 0px 0px 0px 35px;
+  position: relative;
+  font-family: "semibold";
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.eventDate:before {
+  content: "";
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  background: url(../../images/calendarEvent.svg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  left: 12px;
+  top: 2px;
+}
+
+.eventCost {
+  padding: 0px 0px 0px 35px;
+  position: relative;
+  font-family: "semibold";
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.eventCost:before {
+  content: "";
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  background: url(../../images/Ticketprice.svg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  left: 12px;
+  top: 2px;
+}
+
+.seatAlertMessage {
+  color: #ad5da3;
+  font-family: "bold";
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.eventButtonConatiner {
+  display: flex;
+  margin-top: 30px;
+}
+
+.eventButton {
+  margin-right: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.disable {
+  composes: eventButton;
+  opacity: 0.5;
+  cursor: initial;
+}
+
+.detailsHolder {
+  width: 100%;
+  height: auto;
+  padding-top: 30px;
+}
+
+.header {
+  display: inline-block;
+}
+
+.text {
+  margin: 0px 16px 0px 0px;
+  padding-bottom: 10px;
+  color: #7f7f7f;
+  font-family: semibold;
+  font-size: 18px;
+  line-height: 22px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.seletedText {
+  composes: text;
+  color: #1a1a1a;
+  margin: 0px 16px 0px 0px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #4f439a;
+}
+
+.desc {
+  width: 100%;
+  height: auto;
+  color: #1a1a1a;
+  font-family: "regular";
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 10px;
+  text-align: justify;
+  white-space: pre-line;
+}
+.testimonialUserBase {
+  padding: 10px;
+  background: #fff;
+  border-radius: 15px;
+  margin-top: 10px;
+  box-shadow: 0 3px 11px 0 rgba(0, 0, 0, 0.1);
+}
+.testimonialUserContainer {
+  margin-top: 10px;
+}
+.testimonialUser {
+  font-size: 14px;
+  font-family: "bold";
+  line-height: 22px;
+}
+.testimonialCreateAt {
+  font-size: 12px;
+  font-family: "regular";
+  line-height: 22px;
+}
+
+.noteConatiner {
+  width: 100%;
+  height: auto;
+  margin: 30px 0px;
+}
+
+.noteHeading {
+  color: #1a1a1a;
+  font-family: bold;
+  font-size: 15px;
+  line-height: 22px;
+  margin-bottom: 5px;
+}
+
+.noteDescription {
+  color: #7f7f7f;
+  font-family: regular;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.buttonContainer {
+  width: 100%;
+  height: auto;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+.recommendedEvents {
+  margin-top: 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.recommendedEventsHeading {
+  color: #1a1a1a;
+  font-family: "bold";
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.storiesContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.card {
+  width: calc((100% / 3));
+  padding: 22.5px;
+  padding-left: 0px;
+  flex-shrink: 0;
+  display: flex;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1024px) {
+  .base {
+    background: #fff;
+  }
+  .card {
+    width: 260px;
+    padding: 10px 0;
+    vertical-align: top;
+  }
+
+  .container {
+    padding: 0;
+  }
+  .bannerDescHolder {
+    height: auto;
+    display: block;
+  }
+  .bannerImage {
+    width: 100%;
+    height: 500px;
+    display: block;
+  }
+  .descriptionBase {
+    width: 100%;
+
+    height: auto;
+    display: block;
+  }
+  .registrationdetails {
+    position: static;
+  }
+  .descriptionContainer {
+    padding: 15px;
+  }
+  .eventButtonConatine {
+    display: block;
+  }
+  .eventButton {
+    margin-right: 0px;
+    cursor: pointer;
+    display: block;
+  }
+  .eventDetails {
+    display: block;
+  }
+  .eventTime {
+    padding: 0px 0px 0px 23px;
+    margin-bottom: 10px;
+  }
+  .eventTime::before {
+    left: 0px;
+  }
+  .eventCost {
+    padding: 0px 0px 0px 23px;
+    margin-bottom: 10px;
+  }
+  .eventCost::before {
+    left: 0px;
+  }
+  .eventDate {
+    padding: 0px 0px 0px 23px;
+    margin-bottom: 10px;
+  }
+  .eventDate::before {
+    left: 0px;
+  }
+  .eventHeading {
+    font-size: 16px;
+  }
+  .eventlevel {
+    font-size: 12px;
+  }
+  .detailsHolder {
+    padding-top: 0px;
+    padding: 15px;
+    background: #fff;
+  }
+  .recommendedEvents {
+    margin-top: 0px;
+    padding-left: 15px;
+  }
+  .storiesContainer {
+    padding: 15px;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: auto;
+  }
+  .storiesContainer::-webkit-scrollbar {
+    display: none;
+  }
+  .card {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  .viewAllButtonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.fixedHeader {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  transition: 0.5s;
+  z-index: 1;
+  background: #fff;
+  z-index: 2;
+}

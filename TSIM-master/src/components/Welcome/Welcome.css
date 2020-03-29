@@ -1,0 +1,64 @@
+.baseContainer {
+  width: 100%;
+  height: auto;
+  background: #fff;
+  padding: 300px 100px 300px 117px;
+}
+
+.welTxt {
+  display: block;
+}
+
+.welcomeTxt {
+  color: #4f439a;
+  font-family: bold;
+  font-size: 22px;
+  display: inline-block;
+}
+.startInMe {
+  color: #ad5da3;
+  font-family: bold;
+  font-size: 22px;
+  display: inline-block;
+}
+
+.stayConnected {
+  color: #7f7f7f;
+  font-family: bold;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+.valBlock {
+  margin-top: 15px;
+}
+.valText {
+  color: #7f7f7f;
+  font-family: regular;
+  font-size: 14px;
+  line-height: 20px;
+  display: inline-block;
+}
+
+.getStartedButton {
+  width: 100%;
+  height: auto;
+  background-color: #4f439a;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 9px 25px 9px 25px;
+  /* margin-right: 5px; */
+  color: white;
+  text-align: center;
+  margin: 15px 0 15px 0;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  .baseContainer {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    padding: 150px 20px 20px 20px;
+  }
+}

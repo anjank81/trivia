@@ -1,0 +1,68 @@
+.container {
+  height: auto;
+  width: 100%;
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+.holder {
+  min-height: 100vh;
+  width: 100%;
+  height: 100%;
+  background: #ebeced;
+  padding-top: 120px;
+}
+
+.leftContainer {
+  width: 22%;
+  display: inline-block;
+  padding: 20px 22.5px 20px 20px;
+  box-sizing: border-box;
+  border: 1px solid #b2b2b2;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 3px 11px 0 rgba(0, 0, 0, 0.1);
+  float: left;
+  margin: 0 40px 145px 120px;
+}
+
+.rightContainer {
+  display: inline-block;
+  width: 78%;
+  margin-right: 132px;
+  /* margin-left: 40px; */
+}
+
+.accordionVal {
+  color: #1a1a1a;
+  font-family: regular;
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 16.5px;
+  border-bottom: 1px solid #b2b2b2;
+  cursor: pointer;
+}
+
+.accordionVal:last-child {
+  border-bottom: none;
+}
+
+.activeCard {
+  color: #52409f;
+  font-family: regular;
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: 16.5px;
+  border-bottom: 1px solid #b2b2b2;
+  cursor: pointer;
+}
+.fixedHeader {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  transition: 0.5s;
+  z-index: 1;
+  background: #fff;
+  z-index: 2;
+}

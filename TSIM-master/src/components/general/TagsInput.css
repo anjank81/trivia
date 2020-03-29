@@ -1,0 +1,54 @@
+.tags_input {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 5px;
+  font-size: 10px;
+}
+
+input {
+  width: "100%";
+  border: none;
+  outline: none;
+}
+
+.tag {
+  margin-right: 5px;
+  padding: 3px 15px;
+  font-family: bold;
+  color: #1a1a1a;
+  line-height: 18px;
+  border: 1px solid #4f439a;
+  border-radius: 15px;
+  display: "flex";
+  margin-bottom: 10px;
+}
+.fixedTag {
+  composes: tag;
+  color: #4f439a;
+  font-family: bold;
+}
+.delete {
+  display: inline-block;
+  margin-left: 15px;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #ebeced;
+  color: #ebeced;
+  font-size: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.delete:after {
+  content: "X";
+  color: #1a1a1a;
+  width: 15px;
+  height: 15px;
+  line-height: 15px;
+  text-align: center;
+}

@@ -1,0 +1,49 @@
+.baseWrapper {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.baseCard {
+  width: 47%;
+  height: auto;
+  margin: 3px;
+}
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.imageWrapper img {
+  width: 100%;
+  height: auto;
+}
+.pollingResultWrapper {
+  width: 100%;
+  height: auto;
+}
+
+.overLay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 99%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.nooverLay {
+  composes: overLay;
+  background-color: rgba(0, 0, 0, 0);
+}
+.pollPercentage {
+  color: #ffffff;
+  font-family: "bold";
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 23%;
+}

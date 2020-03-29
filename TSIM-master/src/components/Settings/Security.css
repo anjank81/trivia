@@ -1,0 +1,114 @@
+.baseContainer {
+    height: auto;
+    width: 100%;
+    border: 1px solid #b2b2b2;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 3px 11px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .container {
+    height: auto;
+    display: flex;
+    margin-top: -20px
+  }
+  .boxContainer{
+    height: auto;
+    width: 100%;
+    width: 100%;
+    padding: 0 20px 20px 20px;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .securityContainer {
+    height: auto;
+    width: 100%;
+    width: 100%;
+    padding: 20px 0 0 0;
+    position: relative;
+    display: inline-block;
+  }
+  
+  
+  .forgotPassword{
+    color: #4F439A;	
+    font-family: bold;	
+    font-size: 14px;	
+    line-height: 22px;
+    display: inline-block;
+    float:right;
+    margin: 25px 21px 0 0;
+    cursor: pointer
+  }
+  .security {
+    color: #1a1a1a;
+    font-family: bold;
+    font-size: 18px;
+    line-height: 26px;
+    margin: 21px 0 21px 21px;
+    display: inline-block;
+
+  }
+  
+  .lineSeparator {
+    box-sizing: border-box;
+    height: 1px;
+    width: 100%;
+    border: 1px solid #b2b2b2;
+    border-bottom: none;
+
+  }
+
+  .headerContainer{
+    width: 100%;
+    padding: 00px 0 0px 0;
+
+  }
+  .label {
+    color: #1a1a1a;
+    font-family: bold;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 10px;
+  }
+  
+  .buttonContainer {
+    /* width: 50%;
+    float: right;
+    margin: 20px 20px 20px 0; */
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* right: 0; */
+    margin: 0 20px 20px 0;
+    float: right;
+  }
+  
+  .saveButton {
+    /* width: 50%; */
+    border-radius: 5px;
+    background-color: #e0deed;
+    color: #4f439a;
+    font-family: bold;
+    font-size: 16px;
+    line-height: 24px;
+    display: inline-block;
+    padding: 14px 20px 14px 20px;
+    text-align: center;
+    cursor: pointer
+
+  }
+  
+  .cancelButton {
+    /* width: 50%; */
+    color: #4f439a;
+    font-family: bold;
+    font-size: 16px;
+    line-height: 24px;
+    display: inline-block;
+    padding: 14px 20px 14px 20px;
+    text-align: center;
+    cursor: pointer
+
+  }
+  

@@ -1,0 +1,75 @@
+/* .upload_bttn_wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  height: 40px;
+  width: 147px;
+}
+
+.bttn {
+   height: 40px;
+  width: 147px; 
+  border: 1px solid #4f439a;
+  color: #4f439a;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.upload_bttn_wrapper input[type="file"] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+} */
+
+/* .butticocont {
+  border: 1.2px solid #4f439a;
+  color: #4f439a;
+  font-family: bold;
+  height: 40px;
+  width: 147px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.add {
+  margin-right: 19.8px;
+}
+.add:hover {
+  cursor: pointer;
+}
+.upload:hover {
+  cursor: pointer;
+} */
+.upload_btn_wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.btn {
+  border: 1.2px solid #4f439a;
+  color: #4f439a;
+  background-color: white;
+  width: 147px;
+  height: 40px;
+  padding: 8px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.upload_btn_wrapper input[type="file"] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}

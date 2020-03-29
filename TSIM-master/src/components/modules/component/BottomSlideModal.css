@@ -1,0 +1,45 @@
+.base {
+  height: auto;
+  max-height: calc(100vh - 150px);
+  position: fixed;
+  animation: slideInUp 200ms forwards;
+}
+.base:before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 20px;
+  top: 0px;
+  pointer-events: none;
+  background: url("./Images/canceltransperent.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.crossIconHide {
+  height: 100%;
+  max-height: calc(100vh - 150px);
+  position: fixed;
+  animation: BottomSlideModal_slideInUp__1N8ro 200ms forwards;
+}
+.crossIconHide:before {
+  display: none;
+}
+.content {
+  width: 100%;
+  height: auto;
+}
+.base::-webkit-scrollbar {
+  display: none;
+}
+.crossIconHide::-webkit-scrollbar {
+  display: none;
+}
+@keyframes slideInUp {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}

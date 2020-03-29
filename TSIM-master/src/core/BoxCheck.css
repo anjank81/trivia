@@ -1,0 +1,13 @@
+.check {
+  box-sizing: border-box;
+  height: 15px;
+  width: 15px;
+  border: 1px solid #4f439a;
+  border-radius: 3px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.checkFill {
+  composes: check;
+  background: #4f439a;
+}

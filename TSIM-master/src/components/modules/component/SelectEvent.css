@@ -1,0 +1,117 @@
+.title {
+  font-size: 14px;
+  font-family: bold;
+  color: #7f7f7f;
+  text-align: center;
+  padding: 48px 0 25px 0;
+}
+.avatar {
+  width: 80px;
+  height: 78px;
+  border-radius: 100%;
+}
+.avaType {
+  padding: 18px;
+  padding-top: 30px;
+}
+.avatcont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+}
+.explorecont {
+  width: auto;
+  height: auto;
+  padding-top: 45px;
+  text-align: center;
+  color: #4f439a;
+  font-family: semibold;
+  display: inline-block;
+}
+.explorecont:hover {
+  cursor: pointer;
+}
+.active {
+  width: auto;
+  height: auto;
+  padding-top: 45px;
+  text-align: center;
+  background-color: #4f439a;
+  font-family: semibold;
+  color: white;
+  display: inline-block;
+  border-radius: 5.85px;
+}
+.explrcont {
+  text-align: center;
+  font-size: 18px;
+  font-family: bold;
+  line-height: 26px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.exdesc {
+  height: 66px;
+  width: 412px;
+  color: #7f7f7f;
+  font-family: regular;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  margin-left: 165px;
+  letter-spacing: 0.5px;
+}
+.header {
+  text-align: center;
+  font-size: 18px;
+  font-family: bold;
+  line-height: 26px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+@media only screen and (max-width: 1024px) {
+  .exdesc {
+    height: 66px;
+    width: 100%;
+    color: #7f7f7f;
+    font-family: regular;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    padding: 0px 10px;
+    margin-left: 0px;
+    letter-spacing: 0.5px;
+  }
+
+  .active {
+    width: auto;
+    height: auto;
+    padding-top: 45px;
+    text-align: center;
+    background-color: #4f439a;
+    font-family: semibold;
+    color: white;
+    display: inline-block;
+    border-radius: 5.85px;
+    width: 50%;
+  }
+  .active {
+    width: auto;
+    height: auto;
+    padding-top: 45px;
+    text-align: center;
+    background-color: #4f439a;
+    font-family: semibold;
+    color: white;
+    display: inline-block;
+    border-radius: 5.85px;
+    width: 50%;
+  }
+  .avatcont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}

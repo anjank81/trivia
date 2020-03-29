@@ -1,0 +1,194 @@
+.baseContainer {
+  height: auto;
+  width: 100%;
+  /* padding-right: 132px; */
+  /*  */
+}
+
+.container {
+  height: auto;
+  display: flex;
+}
+
+.profileContainer {
+  /* box-sizing: border-box; */
+  height: auto;
+  width: 100%;
+  border: 1px solid #b2b2b2;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 3px 11px 0 rgba(0, 0, 0, 0.1);
+  margin-left: 0px;
+  /* margin: 30px 132px 0 480px; */
+  /* margin-top: 30px; */
+  /* margin-right: 200px; */
+  position: relative;
+  display: inline-block;
+}
+
+.settingsContainer {
+  height: auto;
+  width: 25%;
+  border: 1px solid #b2b2b2;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 3px 11px 0 rgba(0, 0, 0, 0.1);
+  margin-left: 120px;
+  /* margin: 30px 132px 0 480px; */
+  margin-top: 30px;
+  /* margin-right: 200px; */
+  position: relative;
+  display: inline-block;
+}
+.headerHolder {
+  padding-bottom: 20px;
+}
+
+.myProfile {
+  color: #1a1a1a;
+  font-family: bold;
+  font-size: 18px;
+  line-height: 26px;
+  margin: 21px 0 21px 21px;
+}
+.paragraph {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-radius: 2px;
+  border: 1px solid #b2b2b2;
+  padding: 10px;
+  color: #7f7f7f;
+}
+
+/* .surface {
+    box-sizing: border-box;
+    height: 120px;
+    width: 788px;
+    border: 1px solid #B2B2B2;
+    border-radius: 5px;
+  }
+   */
+.lineSeparator {
+  box-sizing: border-box;
+  height: 1px;
+  width: 100%px;
+  border: 1px solid #b2b2b2;
+  border-bottom: none;
+}
+
+.secondaryLineSeperrator {
+  box-sizing: border-box;
+  height: 1px;
+  width: 100%px;
+  border: 1px solid #b2b2b2;
+  border-bottom: none;
+  margin-top: 20px;
+}
+
+.nameContainer {
+  width: 100%;
+  padding: 20px 20px 0 20px;
+}
+.name {
+  color: #1a1a1a;
+  font-family: bold;
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 10px;
+}
+.choose {
+  margin: 28px 0 20px 20px;
+  color: #7f7f7f;
+  font-family: bold;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.commonContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 80px;
+  padding-left: 20px;
+}
+
+.comments {
+  color: #333333;
+  font-family: regular;
+  font-size: 14px;
+  line-height: 22px;
+  margin: 15px 0 15px 20px;
+  display: inline-block;
+}
+
+.checkbox {
+  /* -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; */
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+  vertical-align: middle;
+  outline: 1px solid #4f439a;
+  margin: 18px 40px 18px;
+}
+
+.buttonContainer {
+  /* width: 50%;
+    float: right;
+    margin: 20px 20px 20px 0; */
+  /* position: absolute; */
+  /* bottom: 0; */
+  /* right: 0; */
+  margin: 20px 20px 20px 0;
+  float: right;
+}
+
+.saveButton {
+  /* width: 50%; */
+  border-radius: 5px;
+  background-color: #e0deed;
+  color: #4f439a;
+  font-family: bold;
+  font-size: 16px;
+  line-height: 24px;
+  display: inline-block;
+  padding: 14px 20px 14px 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.cancelButton {
+  /* width: 50%; */
+  color: #4f439a;
+  font-family: bold;
+  font-size: 16px;
+  line-height: 24px;
+  display: inline-block;
+  padding: 14px 20px 14px 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.unblock {
+  color: #4f439a;
+  font-family: bold;
+  font-size: 14px;
+  line-height: 24px;
+  cursor: pointer;
+}
+.profileImage {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+
+.img {
+  display: inline-block;
+  margin-right: 0px;
+  vertical-align: middle;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}

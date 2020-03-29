@@ -1,0 +1,141 @@
+.base {
+  box-sizing: border-box;
+  height: auto;
+  margin: auto;
+  width: 531px;
+  border-radius: 10px;
+  border: 1px solid #979797;
+  background-color: #ffffff;
+}
+
+.heading {
+  height: auto;
+  width: 100%;
+  color: #1a1a1a;
+  padding: 35px 40px;
+  font-family: bold;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.showCross {
+  content: "";
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 20px;
+
+  top: 40px;
+  pointer-events: none;
+  background: url("../../images/Cancel_ine.svg") no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.cancel {
+  position: absolute;
+  padding: 1px 83px;
+}
+
+.icon {
+  width: 150px;
+  height: 150px;
+  background: url("../../images/resume-document.svg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.imageStyle {
+}
+
+.imageContainer {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 45px;
+}
+
+.iconWithName {
+  margin-top: 12px;
+  color: #333333;
+  font-family: bold;
+  font-size: 18px;
+  line-height: 26px;
+  width: auto;
+  height: auto;
+}
+
+.container {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  padding: 30px;
+}
+
+.iconWithNameContainer {
+  display: inline-block;
+  width: 50%;
+  vertical-align: middle;
+}
+
+.iconWithImageContainer {
+  display: inline-block;
+  width: 50%;
+  vertical-align: top;
+}
+
+.iconHolder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  text-align: center;
+}
+
+.iconName {
+  color: #333333;
+  opacity: 0.5;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 20px;
+  padding-bottom: 5px;
+}
+
+.button {
+  height: 50px;
+  width: 100%;
+  margin-top: 60px;
+  border-radius: 5px;
+  background-color: #4f439a;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.buttonText {
+  height: 20px;
+  width: 76px;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 20px;
+  text-align: center;
+}
+
+.uploadIcon {
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  visibility: hidden;
+}
+
+.iconSubHeding {
+  color: #333333;
+  font-family: bold;
+  font-size: 19px;
+  font-weight: bold;
+  line-height: 20px;
+  padding-bottom: 5px;
+}

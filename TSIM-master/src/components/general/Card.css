@@ -1,0 +1,263 @@
+.cardBase {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ebeced;
+  border-radius: 15px;
+  box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.homeCardBase {
+  composes: cardBase;
+  box-shadow: none;
+}
+.cardContainer {
+  cursor: pointer;
+}
+
+.profileHolder {
+  height: 300px;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 99%;
+  color: #fff;
+  top: 0;
+  border-radius: 15px 15px 0px 0px;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.tagBase {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding: 10px 20px;
+}
+
+.tagContainer {
+  display: flex;
+}
+
+.tags {
+  width: auto;
+  height: auto;
+  padding: 5px 15px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  margin: 0px 5px 0px 0px;
+  font-size: 10px;
+  font-family: bold;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  /* letter-spacing: 2px; */
+}
+
+.storiesImage {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.contentContainer {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+
+.contentHeading {
+  color: #1a1a1a;
+  font-size: 20px;
+  font-family: bold;
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+
+.username {
+  color: #232323;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.or {
+  margin: 0px 10px;
+}
+
+.actionBarConatiner {
+  width: 100%;
+  height: auto;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  padding: 15px;
+  padding-left: 39px;
+  border-top: 1px solid #ebeced;
+  position: absolute;
+  bottom: 0;
+}
+
+.actionsHolder {
+  display: flex;
+  position: relative;
+}
+
+.action {
+  margin-right: 50px;
+}
+
+/* For Homepage */
+
+.homeCardbase {
+  composes: cardBase;
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+}
+.homeStoryImage {
+  composes: storiesImage;
+  width: 100%;
+  height: 250px;
+}
+
+.homeContentHeading {
+  composes: contentHeading;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.wishlistInActive {
+  color: #7f7f7f;
+  font-family: "semibold";
+  font-size: 12px;
+  line-height: 17px;
+  position: relative;
+  cursor: pointer;
+}
+.wishlistInActive::after {
+  content: "";
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  top: 0px;
+  left: -20px;
+  background: url("../../images/Bookmark_off.svg");
+  background-position: center;
+  background-size: cover;
+}
+.wishlistActive {
+  color: #7f7f7f;
+  font-family: "semibold";
+  font-size: 12px;
+  line-height: 17px;
+  position: relative;
+  cursor: pointer;
+}
+.wishlistActive::after {
+  content: "";
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  top: 0px;
+  left: -20px;
+  background: url("../../images/Bookmark_on.svg");
+  background-position: center;
+  background-size: cover;
+}
+.likes {
+  color: #7f7f7f;
+  font-family: "semibold";
+  font-size: 12px;
+  line-height: 17px;
+  position: relative;
+  margin-right: 50px;
+  cursor: pointer;
+}
+.likes::before {
+  content: "";
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  top: 0px;
+  left: -20px;
+  background: url("../../images/Staron.svg");
+  background-position: center;
+  background-size: cover;
+}
+.unlikes {
+  color: #7f7f7f;
+  font-family: "semibold";
+  font-size: 12px;
+  line-height: 17px;
+  position: relative;
+  margin-right: 50px;
+  cursor: pointer;
+}
+.unlikes::before {
+  content: "";
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  top: 0px;
+  left: -20px;
+  background: url("../../images/Staroff.svg");
+  background-position: center;
+  background-size: cover;
+}
+.comment {
+  color: #7f7f7f;
+  font-family: "semibold";
+  font-size: 12px;
+  line-height: 17px;
+  position: relative;
+  margin-right: 50px;
+  cursor: pointer;
+}
+.comment::before {
+  content: "";
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  top: 0px;
+  left: -20px;
+  background: url("../../images/Comment.svg");
+  background-position: center;
+  background-size: cover;
+}
+.share {
+  color: #7f7f7f;
+  font-family: "semibold";
+  font-size: 12px;
+  line-height: 17px;
+  position: relative;
+  cursor: pointer;
+}
+.share::before {
+  content: "";
+  height: 16px;
+  width: 16px;
+  position: absolute;
+  top: 0px;
+  left: -20px;
+  background: url("../../images/Sharefill.svg");
+  background-position: center;
+  background-size: cover;
+}
+.sharemenu {
+  width: auto;
+  background: #fff;
+  position: absolute;
+  bottom: 30px;
+  left: 30%;
+  display: flex;
+  z-index: 5;
+}
+@media only screen and (max-width: 768px) {
+  .tags {
+    padding: 5px 3px;
+  }
+}

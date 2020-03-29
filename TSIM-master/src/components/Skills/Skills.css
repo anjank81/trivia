@@ -1,0 +1,50 @@
+.base {
+  box-sizing: border-box;
+  border: 1px solid rgba(151, 151, 151, 0.2);
+  border-radius: 9px;
+  position: relative;
+  padding: 35px 15px;
+  margin: 50px 0;
+}
+
+.addButton {
+  cursor: pointer;
+  background: url("../../images/Add-Fill-color.svg") no-repeat;
+  width: 25px;
+  height: 25px;
+  background-position: center;
+  background-size: cover;
+}
+
+.title {
+  position: absolute;
+  top: -10px;
+  background: #fff;
+}
+
+.addButton {
+  position: absolute;
+  top: -10px;
+  right: 30px;
+  /* background: #fff; */
+}
+
+.addSkill {
+  display: inline-block;
+  color: #7f7f7f;
+  border-bottom: 1px dotted;
+  font-size: 12px;
+  font-family: bold;
+  line-height: 20px;
+}
+
+.container {
+  padding: 5px 15px;
+  width: auto;
+  display: inline-block;
+}
+
+.container:nth-child(1) {
+  padding: 0 15px;
+  padding-left: 0;
+}

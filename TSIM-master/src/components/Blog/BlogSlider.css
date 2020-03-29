@@ -1,0 +1,226 @@
+.base {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.stepInfoWrapper {
+  color: #212121;
+}
+.stepInfoHeader {
+  font-family: semibold;
+  font-size: 20px;
+}
+.stepInfoDetail {
+  font-family: regular;
+  font-size: 14px;
+  padding-top: 10px;
+}
+.item {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+}
+.navHolder {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  position: absolute;
+  top: 21%;
+  right: 31.6%;
+}
+.navButton {
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  border: 1px solid rgba(74, 74, 74, 0.7);
+  opacity: 0.5;
+  background-color: #ffffff;
+  transition: 300ms;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.navActive {
+  composes: navButton;
+  width: 6px;
+  height: 6px;
+  background: #ad5da3;
+  border: 2px solid #ad5da3;
+  margin-top: 3px;
+}
+.eventBottomWrapper {
+  position: absolute;
+  top: 46%;
+  left: 12%;
+  color: #ffffff;
+  text-align: left;
+  width: 520px;
+  height: auto;
+}
+.eventDesc {
+  font-family: regular;
+  font-size: 18px;
+  line-height: 26px;
+}
+.eventHeader {
+  font-family: regular;
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: bold;
+}
+
+.eventTime::before {
+  content: "";
+  width: 19px;
+  height: 19px;
+  background: url("../../images/time-pink.svg") no-repeat;
+  background-size: auto 19px;
+  background-position: center;
+  padding: 10px;
+  margin-right: 10px;
+}
+.eventDate::before {
+  content: "";
+  width: 19px;
+  height: 19px;
+  background: url("../../images/Date-pink.svg") no-repeat;
+  background-size: auto 19px;
+  background-position: center;
+  padding: 10px;
+  margin-right: 10px;
+}
+.eventDetailsBottomWrapper {
+  font-size: 14px;
+  font-family: regular;
+  padding: 1px 20px 37px 44px;
+  text-align: left;
+  height: 141px;
+}
+.eventLocation::before {
+  content: "";
+  width: 19px;
+  height: 19px;
+  background: url("../../images/Location-pink.svg") no-repeat;
+  background-size: auto 19px;
+  background-position: center;
+  padding: 10px;
+  margin-right: 10px;
+}
+.eventTimeLocationWrapper {
+  display: flex;
+
+  margin-top: 19px;
+  font-family: semibold;
+  line-height: 22px;
+  white-space: nowrap;
+}
+.eventTimeLocationWrapper div {
+  margin-right: 20px;
+}
+.rightArrow {
+  width: 40px;
+  height: 40px;
+  background: #d8d8d8 url(../../images/forward-color.svg) no-repeat;
+  background-size: auto 18px;
+  background-position: center;
+  opacity: 0.6;
+  cursor: pointer;
+  position: absolute;
+  right: -55px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 5;
+  border-radius: 50%;
+}
+.leftArrow {
+  composes: rightArrow;
+  right: initial;
+  left: -55px;
+  transform: rotate(180deg);
+}
+.imageHolder {
+  width: 100%;
+  height: auto;
+  transition: 300ms;
+  white-space: nowrap;
+}
+.sliderWrapper {
+  overflow: hidden;
+}
+.slider {
+  composes: imageHolder;
+  transition: none;
+}
+.maxWidth {
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  margin: auto;
+  pointer-events: none;
+}
+
+.buttonHolder {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 12px;
+  cursor: pointer;
+}
+.hideButtonHolder {
+  display: none;
+}
+.button {
+  height: 36px;
+  width: 186px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background-color: #da1c5c;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 1025px) {
+  .item {
+    position: relative;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .navHolder {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    position: absolute;
+    top: 10%;
+    right: 25%;
+  }
+
+  .navButton {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    border: 1px solid rgba(74, 74, 74, 0.7);
+    opacity: 0.5;
+    background-color: #ffffff;
+    transition: 300ms;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .navActive {
+    composes: navButton;
+    width: 3px;
+    height: 3px;
+    background: #ad5da3;
+    border: 2px solid #ad5da3;
+    margin-top: 0px;
+  }
+}

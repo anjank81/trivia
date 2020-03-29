@@ -1,0 +1,75 @@
+.base {
+  width: 100%;
+  height: auto;
+  text-align: left;
+}
+.singleLine {
+  composes: base;
+  white-space: nowrap;
+}
+.button {
+  position: relative;
+  display: inline-block;
+  width: auto;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 55px;
+  padding-left: 0px;
+  margin-top: 10px;
+  line-height: 29px;
+}
+.button:before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 2px solid #c8c8c8;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  opacity: 1;
+  transition: 300ms;
+}
+.button:after {
+  content: "";
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 2px solid #5200d4;
+  background: #5200d4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  transform: scale(0);
+  transition: 300ms;
+}
+.buttonActive {
+  composes: button;
+}
+.buttonActive.button:after {
+  transform: scale(0.6);
+}
+.buttonActive.button:before {
+  border: 2px solid #5200d4;
+}
+.label {
+  width: 100%;
+  font-size: 16px;
+  text-align: left;
+  position: relative;
+  left: 40px;
+  font-family: medium;
+}
+
+@media only screen and (max-width: 1024px) {
+  .singleLine {
+    white-space: normal;
+  }
+  .button {
+    margin-right: 50px;
+  }
+}

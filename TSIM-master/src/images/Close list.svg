@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>Close list</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Close-list" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Arrow_Simple_left" transform="translate(20.000000, 20.000000) rotate(90.000000) translate(-20.000000, -20.000000) translate(9.000000, 0.000000)" fill="#000000">
+            <path d="M19.2,38.6509804 C19.8180596,39.2268943 20.7811968,39.2099009 21.3785554,38.6125423 C21.975914,38.0151837 21.9929074,37.0520465 21.4169935,36.4339869 L4.68496732,19.7019608 L21.4169935,3.55555556 C21.9929074,2.93749594 21.975914,1.97435875 21.3785554,1.37700016 C20.7811968,0.779641567 19.8180596,0.762648135 19.2,1.33856209 L0.54379085,19.7019608 L19.2,38.6509804 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

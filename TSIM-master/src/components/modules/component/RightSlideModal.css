@@ -1,0 +1,63 @@
+.base {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  width: 50vw;
+  height: 100vh;
+  float: right;
+  background: #ffffff;
+  animation: slideInLeft 200ms forwards;
+  overflow-y: scroll;
+}
+.base::-webkit-scrollbar {
+  display: none;
+}
+
+.base:before {
+  content: "";
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 0px;
+  top: -40px;
+  pointer-events: none;
+  background: url("../../../images/Cross.svg") no-repeat;
+  background-position: center;
+}
+.crossIconHide {
+  height: auto;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  animation: slideInUp 200ms forwards;
+  overflow-y: scroll;
+}
+
+.crossIconHide::-webkit-scrollbar {
+  display: none;
+}
+
+.crossIconHide:before {
+  display: none;
+}
+.content {
+  width: 100%;
+  height: auto;
+}
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .base {
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    position: fixed;
+  }
+}
